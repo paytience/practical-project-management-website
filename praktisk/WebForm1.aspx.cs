@@ -50,7 +50,7 @@ namespace praktisk
                     {
                         for (int k = 0; k < lstAlternativeId.Count(); k++) //32 times
                         {
-                            if (Convert.ToInt32(lstQuestionAlternativeId[j]) == Convert.ToInt32(lstQuestionId[j])) //if questionid (question) = questionid (alternative)
+                            if (Convert.ToInt32(lstQuestionId[j]) == Convert.ToInt32(lstQuestionAlternativeId[k])) //if questionid (question) = questionid (alternative)
                             {
                                 Alternatives.Add(new Alternative(lstAlternativeId[k], lstQuestionAlternativeId[k], lstCorrect[k], lstAlternativeText[k]));
                             }
@@ -58,7 +58,7 @@ namespace praktisk
                         Questions.Add(new Question(lstQuestionId[j], lstQuestionText[j], lstQuizQuestionId[j], lstQuestionDifficulty[j], Alternatives));
                     }
                 }
-                Questions.Add(new Question(lstQuestionId[i], lstQuestionText[i], lstQuizQuestionId[i], lstQuestionDifficulty[i], Questions));
+                Quizes.Add(new Quiz(lstQuizId[i], lstQuizNames[i], Questions));
             }
 
 
