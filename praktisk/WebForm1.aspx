@@ -89,7 +89,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">Select Lecture</h2>
+                        <h2 class="section-heading text-uppercase">Select Lecture/Quiz</h2>
                         <!-- dropdown -->
                         <div class="dropdown">
                             <button class="btn btn-lg btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -122,24 +122,24 @@
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="service-heading">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 class="service-heading">Questions</h4>
+                        <p class="text-muted">The questions we made are created to repeat the information told in the lectures and in the course book.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="service-heading">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 class="service-heading">Summaries</h4>
+                        <p class="text-muted">The website includes short summaries from each lecture and chapter from The Road to Success.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="service-heading">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 class="service-heading">Learning</h4>
+                        <p class="text-muted">Using the questions and summaries together with the lectures and the book The Road to Success may help you learn more and retain the information better for later use.    </p>
                     </div>
                 </div>
             </div>
@@ -334,7 +334,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h3 class="section-subheading text-muted">Group members in group 27:</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -355,7 +355,7 @@
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/casper-nilsen-899344149/">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </li>
@@ -366,7 +366,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="img/team/jørgen.jpg" alt="">
                             <h4>Jørgen Anker Olsen</h4>
-                            <p class="text-muted">Lead Designer</p>
+                            <p class="text-muted">Project manager and Lead Designer</p>
                             <ul class="list-inline social-buttons">
                                 <li class="list-inline-item">
                                     <a href="#">
@@ -379,7 +379,7 @@
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/jorgenankerolsen/">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </li>
@@ -403,7 +403,7 @@
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/simen-theie-havenstr%C3%B8m-122024171/">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </li>
@@ -429,7 +429,7 @@
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/ole-martin-brokstad-b23bb2137/">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </li>
@@ -453,7 +453,7 @@
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/fredrik-hoel-bevreng-a70273145/">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </li>
@@ -487,7 +487,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                        <p class="large text-muted">We have a dedication towards hard work and learning. We want to enable easy learning for other students in the course TPK5100.</p>
                     </div>
                 </div>
             </div>
@@ -607,18 +607,19 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <h2 class="text-uppercase">The project</h2>
+                                    <p class="item-intro text-muted">Bacground for the project:</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/01-metalearing.jpg" alt="">
+
+                                    <p>The goal of this project is....</p>
                                     <ul class="list-inline">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Threads</li>
-                                        <li>Category: Illustration</li>
+                                        <li>Date: October 2019</li>
+                                        <li>Client: Students of Practical project management</li>
+                                        <li>Category: Web hosting</li>
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
-                                        Close Project</button>
+                                        Close </button>
                                 </div>
                             </div>
                         </div>
@@ -641,18 +642,18 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <h2 class="text-uppercase">C#, Java, python and html</h2>
+                                    <p class="item-intro text-muted">The programming languages used to create this websit. </p>
+                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/programming.jpg" alt="">
+                                    <p>We used C#, Java, python and html to create this website. And.... </p>
                                     <ul class="list-inline">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Explore</li>
-                                        <li>Category: Graphic Design</li>
+                                        <li>Date: October 2019</li>
+                                        <li>Client: Bassan</li>
+                                        <li>Category: Website programming</li>
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
-                                        Close Project</button>
+                                        Close </button>
                                 </div>
                             </div>
                         </div>
@@ -680,13 +681,13 @@
                                     <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
-                                        <li>Date: January 2017</li>
+                                        <li>Date: January 2019</li>
                                         <li>Client: Finish</li>
                                         <li>Category: Identity</li>
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
-                                        Close Project</button>
+                                        Close </button>
                                 </div>
                             </div>
                         </div>
@@ -720,7 +721,7 @@
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
-                                        Close Project</button>
+                                        Close </button>
                                 </div>
                             </div>
                         </div>
@@ -743,18 +744,18 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Web hosting by Azure</h2>
+                                    <p class="item-intro text-muted">To host such a amazing website we use Azure</p>
                                     <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>To hoste our website we are using the maazing cloud hosting services to host our website.</p>
                                     <ul class="list-inline">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Southwest</li>
-                                        <li>Category: Website Design</li>
+                                        <li>Date: October 2019</li>
+                                        <li>Client: Us</li>
+                                        <li>Category: Website Hosting</li>
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
-                                        Close Project</button>
+                                        Close </button>
                                 </div>
                             </div>
                         </div>
@@ -782,13 +783,13 @@
                                     <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
-                                        <li>Date: January 2017</li>
+                                        <li>Date: October 2019</li>
                                         <li>Client: Window</li>
                                         <li>Category: Photography</li>
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
-                                        Close Project</button>
+                                        Close </button>
                                 </div>
                             </div>
                         </div>
