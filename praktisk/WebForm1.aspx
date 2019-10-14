@@ -14,6 +14,8 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.css">
+
 
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
@@ -29,20 +31,18 @@
     <script src="https://kit.fontawesome.com/ffd2f95330.js" crossorigin="anonymous"></script>
 
 
-<%--    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>--%>
-<%--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>--%>
+    <%--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>--%>
+    <%--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>--%>
     <script src="js/Custom'.js" type="text/javascript"></script>
-
-
-
-
-
-    
 
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="init()">
     <form id="form1" runat="server">
+
+        <%--        <!-- init controls -->
+        <asp:HiddenField ID="hidFldAnswerIndex" ClientIDMode="Static" runat="server" Value="3" />--%>
+
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
@@ -57,10 +57,10 @@
                             <a class="nav-link js-scroll-trigger" href="#services">Take Test</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                            <a class="nav-link js-scroll-trigger" href="#portfolio">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                            <a class="nav-link js-scroll-trigger" href="#about">Our Story</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#team">Team</a>
@@ -93,20 +93,21 @@
                         <!-- dropdown -->
                         <div class="dropdown">
                             <button class="btn btn-lg btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Lecture 1
+                                Lecture
                             </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <button runat="server" class="dropdown-item" data-toggle="modal" data-target="#Lecture1Modal" type="button">Lecture 1</button>
-                                <button runat="server" class="dropdown-item" data-toggle="modal" data-target="#Lecture2Modal" type="button">Lecture 2</button>
-                                <button runat="server" class="dropdown-item" data-toggle="modal" data-target="#Lecture3Modal" type="button">Lecture 3</button>
-                                <button runat="server" class="dropdown-item" data-toggle="modal" data-target="#Lecture4Modal" type="button">Lecture 4</button>
-                                <button runat="server" class="dropdown-item" data-toggle="modal" data-target="#Lecture5Modal" type="button">Lecture 5</button>
-                                <button runat="server" class="dropdown-item" data-toggle="modal" data-target="#Lecture6Modal" type="button">Lecture 6</button>
-                                <button runat="server" class="dropdown-item" data-toggle="modal" data-target="#Lecture7Modal" type="button">Lecture 7</button>
-                                <button runat="server" class="dropdown-item" data-toggle="modal" data-target="#Lecture8Modal" type="button">Lecture 8</button>
-                                <button runat="server" class="dropdown-item" data-toggle="modal" data-target="#Lecture9Modal" type="button">Lecture 9</button>
-                                <button runat="server" class="dropdown-item" data-toggle="modal" data-target="#Lecture10Modal" type="button">Lecture 10</button>
-                                <button runat="server" class="dropdown-item" data-toggle="modal" data-target="#Lecture11Modal" type="button">Lecture 11</button>
+                            <div runat="server" id="dropdownmenu" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <button runat="server" id="dropdown1" onclick="openModal(this)" class="dropdown-item text-secondary disabled" style="display: none" value="0" data-toggle="modal" data-target="#LectureModal" type="button">1</button>
+                                <button runat="server" id="dropdown2" onclick="openModal(this)" class="dropdown-item" style="display: none" value="1" data-toggle="modal" data-target="#LectureModal" type="button">2</button>
+                                <button runat="server" id="dropdown3" onclick="openModal(this)" class="dropdown-item" style="display: none" value="2" data-toggle="modal" data-target="#LectureModal" type="button">3</button>
+                                <button runat="server" id="dropdown4" onclick="openModal(this)" class="dropdown-item" style="display: none" value="3" data-toggle="modal" data-target="#LectureModal" type="button">4</button>
+                                <button runat="server" id="dropdown5" onclick="openModal(this)" class="dropdown-item" style="display: none" value="4" data-toggle="modal" data-target="#LectureModal" type="button">5</button>
+                                <button runat="server" id="dropdown6" onclick="openModal(this)" class="dropdown-item" style="display: none" value="5" data-toggle="modal" data-target="#LectureModal" type="button">6</button>
+                                <button runat="server" id="dropdown7" onclick="openModal(this)" class="dropdown-item" style="display: none" value="6" data-toggle="modal" data-target="#LectureModal" type="button">7</button>
+                                <button runat="server" id="dropdown8" onclick="openModal(this)" class="dropdown-item" style="display: none" value="7" data-toggle="modal" data-target="#LectureModal" type="button">8</button>
+                                <button runat="server" id="dropdown9" onclick="openModal(this)" class="dropdown-item" style="display: none" value="8" data-toggle="modal" data-target="#LectureModal" type="button">9</button>
+                                <button runat="server" id="dropdown10" onclick="openModal(this)" class="dropdown-item" style="display: none" value="9" data-toggle="modal" data-target="#LectureModal" type="button">10</button>
+                                <button runat="server" id="dropdown11" onclick="openModal(this)" class="dropdown-item" style="display: none" value="10" data-toggle="modal" data-target="#LectureModal" type="button">11</button>
+                                <button runat="server" id="dropdown12" onclick="openModal(this)" class="dropdown-item" style="display: none" value="11" data-toggle="modal" data-target="#LectureModal" type="button">12</button>
                             </div>
                         </div>
                         <%--                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>--%>
@@ -147,7 +148,7 @@
 
 
 
-        <!-- Portfolio Grid -->
+        <!-- About Grid -->
         <section class="bg-light page-section" id="portfolio">
             <div class="container">
                 <div class="row">
@@ -245,12 +246,12 @@
             </div>
         </section>
 
-        <!-- About -->
+        <!-- Our Story -->
         <section class="page-section" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">About</h2>
+                        <h2 class="section-heading text-uppercase">Our Story</h2>
                         <h3 class="section-subheading text-muted">Read about Group 27's story for all phases throughout this project.</h3>
                     </div>
                 </div>
@@ -798,22 +799,22 @@
             </div>
         </div>
 
-        <!-- addModal Modal -->
-        <div id="Lecture1Modal" class="modal fade" role="dialog" tabindex="-1">
+        <!-- lectureModal Modal -->
+        <div id="LectureModal" class="modal fade" role="dialog" tabindex="-1">
             <div class="page-section">
                 <div class="modal-dialog modal-lg" style="max-width: 70%;">
-                    <!-- addWorkModal content-->
+                    <!-- lectureWorkModal content-->
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4 class="modal-title">Lecture 1</h4>
+                            <h4 class="modal-title" id="modalTitle">Lecture 1</h4>
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
-                        <!-- addWorkModal body-->
+                        <!-- lectureWorkModal body-->
                         <div class="modal-body">
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <h3 class="text-center mx-auto">Question text here</h3>
+                                        <h3 class="text-center mx-auto" id="questionText">Question text here</h3>
                                     </div>
                                 </div>
                                 <div class="frb-group">
@@ -822,19 +823,19 @@
                                         <!-- RADIO BUTTONS BLOCK -->
                                         <div class="col-lg-6">
                                             <div class="frb frb-primary">
-                                                <input type="radio" id="radio-button-0" name="radio-button" value="0">
-                                                <label for="radio-button-0">
-                                                    <span class="frb-title">Lorem Ipsum</span>
-                                                    <span class="frb-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                <input type="radio" id="radio-button-1" onclick="altCheck(this)" name="radio-button" value="1">
+                                                <label for="radio-button-1" id="alt1Box">
+                                                    <span class="frb-title">1</span>
+                                                    <span class="frb-description text-dark" id="alt1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="frb frb-primary">
-                                                <input type="radio" id="radio-button-1" name="radio-button" value="1">
-                                                <label for="radio-button-1">
-                                                    <span class="frb-title">Lorem Ipsum</span>
-                                                    <span class="frb-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                <input type="radio" id="radio-button-2" onclick="altCheck(this)" name="radio-button" value="2">
+                                                <label for="radio-button-2" id="alt2Box">
+                                                    <span class="frb-title">2</span>
+                                                    <span class="frb-description text-dark" id="alt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -842,61 +843,104 @@
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="frb frb-primary">
-                                                <input type="radio" id="radio-button-2" name="radio-button" value="2">
-                                                <label for="radio-button-2">
-                                                    <span class="frb-title">Lorem Ipsum</span>
-                                                    <span class="frb-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                <input type="radio" id="radio-button-3" onclick="altCheck(this)" name="radio-button" value="3">
+                                                <label for="radio-button-3" id="alt3Box">
+                                                    <span class="frb-title">3</span>
+                                                    <span class="frb-description text-dark" id="alt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="frb frb-primary">
-                                                <input type="radio" id="radio-button-3" name="radio-button" value="3">
-                                                <label for="radio-button-3">
-                                                    <span class="frb-title">Lorem Ipsum</span>
-                                                    <span class="frb-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                <input type="radio" id="radio-button-4" onclick="altCheck(this)" name="radio-button" value="4">
+                                                <label for="radio-button-4" id="alt4Box">
+                                                    <span class="frb-title">4</span>
+                                                    <span class="frb-description text-dark" id="alt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-9"></div>
-                                    <div class="col-lg-1">
-                                        <button runat="server" onclick="disableRandom()" id="Button1" class="btn float-right text-uppercase btn-primary" type="button">Back</button>
+                                    <div class="col-sm-5">
+                                        <button runat="server" onclick="lifeLine5050()" id="lifeLine1" class="btn float-left text-uppercase btn-primary" type="button">50/50</button>
                                     </div>
-                                    <div class="col-lg-1">
-                                        <button runat="server" onclick="addWork()" id="Button2" class="btn float-right text-uppercase btn-primary" type="button">Back</button>
-                                    </div>
-                                    <div class="col-lg-1">
-                                        <button runat="server" onclick="addWork()" id="Button3" class="btn float-right text-uppercase btn-primary" type="button">Next</button>
+
+                                    <div class="col-sm-7 text-right">
+                                        <button runat="server" onclick="back()" id="btnBack" class="btn d-none text-uppercase btn-primary" type="button">Back</button>
+                                        <button runat="server" onclick="next()" id="btnNext" class="btn d-none text-uppercase btn-primary" type="button">Next</button>
                                     </div>
                                 </div>
-                                <!-- addWorkModal alert-->
                                 <div class="row my-2">
-                                    <div class="col-sm-12">
-                                        <div id="alertAddDiv" style="display: none;" class="alert alert-danger alert alert-dismissible" role="alert">
-                                            <div id="addMessage">
-                                            </div>
-                                            <button type="button" class="close" data-hide="alert" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
+                                    <div class="col-sm-4"></div>
+                                    <div class="col-sm-4">
+                                        <input runat="server" class="form-control d-none" id="txtName" type="text" placeholder="Your Name">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <%--                                        <button runat="server" onclick="submit()" id="btnSubmit" data-target="#LeaderBoardModal" data-dismiss="modal" data-toggle="modal" class="btn d-none text-uppercase btn-primary" type="button">Submit</button>--%>
+                                        <button runat="server" onclick="submit()" id="btnSubmit" class="btn d-none text-uppercase btn-primary" type="button">Submit</button>
+                                    </div>
+                                </div>
+                                <div class="row my-2">
+                                    <div id="alertDiv" style="display: none;" class="alert mx-auto alert-danger alert alert-dismissible" role="alert">
+                                        <div id="addMessage">
+                                            <strong>Ops!</strong> Vennligst velg et alternativ.
                                         </div>
                                     </div>
                                 </div>
+
+                                <!-- lectureModal footer-->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <%--                    <button runat="server" onclick="addWork()" id="Button1" class="btn btn-primary" type="button">Legg til arbeid</button>--%>
+                                </div>
                             </div>
-                        </div>
-                        <!-- addWorkModal footer-->
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <%--                    <button runat="server" onclick="addWork()" id="Button1" class="btn btn-primary" type="button">Legg til arbeid</button>--%>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        
+        <!-- LeaderBoardModal Modal -->
+        <div id="LeaderBoardModal" class="modal fade" role="dialog" tabindex="-1">
+            <div class="page-section">
+                <div class="modal-dialog modal-lg" style="max-width: 70%;">
+                    <!-- LeaderBoardModal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modalTitle2">Leaderboard</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <!-- LeaderBoardModal body-->
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row d-flex justify-content-between bd-highlight mb-3 example-parent">
+                                    <div class="col-lg-4">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <h3 class="text-center mx-auto" id="questionText2">Question text here</h3>
+                                    </div>
+                                    <div class="text-right col-lg-4">
+                                            <button runat="server" onclick="refreshLeaderboard()" id="btnRefres" class="btn text-uppercase btn-primary" type="button">Refresh</button>
+                                    </div>
+                                </div>
+                                <table id="table1">
+                                    <thead>
+                                        <tr>
+                                            <th data-field="Name">Name</th>
+                                            <th data-field="Correct">#Correct</th>
+                                            <th data-field="Incorrect">#Incorrect</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <!-- Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.min.js" type="text/javascript"></script>
         <script src="vendor/popper/popper.min.js" type="text/javascript"></script>
@@ -911,6 +955,8 @@
 
         <!-- Custom scripts for this template -->
         <script src="js/agency.min.js" type="text/javascript"></script>
+
+        <script src="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.js"></script>
     </form>
 </body>
 

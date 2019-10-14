@@ -202,6 +202,12 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Alternative.cs" />
+    <Compile Include="Classes\Question.cs" />
+    <Compile Include="Classes\Quiz.cs" />
+    <Compile Include="Classes\Data.cs" />
+    <Compile Include="Classes\Database.cs" />
+    <Compile Include="Classes\Result.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
