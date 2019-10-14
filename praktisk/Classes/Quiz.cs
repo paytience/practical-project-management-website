@@ -17,16 +17,5 @@ namespace praktisk
         public string QuizId { set; get; }
         public string QuizName { set; get; }
         public List<Question> Questions { set; get; }
-
-
-        //public List<String> quizQuestions;
-        //public List<List<String>> quizAlternatives;
-        //public List<String> quizAnswers;
-        //public Quiz(List<String> questions, List<List<String>> alternatives, List<String> answers) //Creates Quiz objects
-        //{
-        //    this.quizQuestions = questions;
-        //    this.quizAlternatives = alternatives;
-        //    this.quizAnswers = answers;
-        //}
     }
 }

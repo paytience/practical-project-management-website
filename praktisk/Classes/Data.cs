@@ -16,22 +16,6 @@ namespace praktisk
     {
         SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["myConnection"].ConnectionString);
 
-        public void GetData() //gets station information from SQL database
-        {
-
-            using (SqlCommand cmd = new SqlCommand(StoredProcedure.GetAmountQuizes.ToString(), con))
-            {
-                cmd.CommandType = CommandType.StoredProcedure;
-                con.Open();
-                var reader = cmd.ExecuteReader();
-                while (reader.Read())
-                {
-
-                }
-                con.Close();
-            }
-        }
-
         public void GetQuizNames(out List<string> quizId, out List<string> quizNames) //gets station information from SQL database
         {
             quizId = new List<string>();
@@ -92,6 +76,59 @@ namespace praktisk
                     questionId.Add(reader.GetString(1));
                     correct.Add(reader.GetBoolean(2).ToString());
                     alternativeText.Add(reader.GetString(3));
+                }
+                con.Close();
+            }
+        }
+
+        public void AddName(string userName) //gets station information from SQL database
+        {
+            using (SqlCommand cmd = new SqlCommand(StoredProcedure.AddUserName.ToString(), con))
+            {
+                cmd.Parameters.AddWithValue("@userName", userName);
+                cmd.CommandType = CommandType.StoredProcedure;
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+        }
+
+        public void AddResult(string quizIndex, string numCorrect, string numIncorrect) //gets station information from SQL database
+        {
+            using (SqlCommand cmd = new SqlCommand(StoredProcedure.AddResults.ToString(), con))
+            {
+                cmd.Parameters.AddWithValue("@quizIndex", quizIndex);
+                cmd.Parameters.AddWithValue("@correct", numCorrect);
+                cmd.Parameters.AddWithValue("@incorrect", numIncorrect);
+                cmd.CommandType = CommandType.StoredProcedure;
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+        }
+
+        public void GetScores(string quizIndex, out List<string> resultId, out List<string> correct, out List<string> incorrect, out List<string> quizId, out List<string> userId, out List<string> name)
+        {
+            resultId = new List<string>();
+            correct = new List<string>();
+            incorrect = new List<string>();
+            quizId = new List<string>();
+            userId = new List<string>();
+            name = new List<string>();
+            using (SqlCommand cmd = new SqlCommand(StoredProcedure.GetResults.ToString(), con))
+            {
+                cmd.Parameters.AddWithValue("@quizIndex", quizIndex);
+                cmd.CommandType = CommandType.StoredProcedure;
+                con.Open();
+                var reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    resultId.Add(reader.GetString(0));
+                    correct.Add(reader.GetString(1));
+                    incorrect.Add(reader.GetString(2));
+                    quizId.Add(reader.GetString(3));
+                    userId.Add(reader.GetString(4));
+                    name.Add(reader.GetString(5));
                 }
                 con.Close();
             }

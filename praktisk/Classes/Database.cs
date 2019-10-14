@@ -9,7 +9,7 @@ using System.Web.Configuration;
 
 namespace praktisk
 {
-    public enum StoredProcedure { GetQuiz, GetAmountQuizes, GetAnswers, GetQuestions, GetAlternatives}; //global enum naming all stored procedures
+    public enum StoredProcedure { AddResults, AddUserName, GetResults, GetQuiz, GetAmountQuizes, GetAnswers, GetQuestions, GetAlternatives}; //global enum naming all stored procedures
 
     public static class Database
     {

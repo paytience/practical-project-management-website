@@ -61,40 +61,53 @@ namespace praktisk
                 Quizes.Add(new Quiz(lstQuizId[i], lstQuizNames[i], Questions));
             }
 
-
-            //for (int k = 0; k < lstAlternativeId.Count(); k++)
-            //{
-            //    //text = "question ID: " + lstQuestionId[j] + "question Text: " + lstQuestionText[j] + "\\n";
-            //    //text += "alternative ID: " + lstAlternativeId[k] + "alternative Text: " + lstAlternativeText[k] + "\\n";
-            //    //ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + text + "');", true);
-            //}
-
-
-
-            //string text = "alternative IDs: ";
-            //for (int i = 0; i < lstAlternativeId.Count(); i++)
-            //{
-            //    text += lstAlternativeId[i] + " ";
-            //}
-
-            //text += "names: ";
-            //for (int i = 0; i < lstQuizId.Count(); i++)
-            //{
-            //    text += lstQuizNames[i] + " ";
-            //}
-
-            //text += "questionids: ";
-            //for (int i = 0; i < lstQuestionId.Count(); i++)
-            //{
-            //    text += lstQuestionText[i] + " ";
-            //}
-
-
+            Session["quizData"] = Quizes;
 
             //ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + text + "');", true);
 
 
 
+        }
+
+        [WebMethod]
+        public static List<Quiz> GetQuizes() //Webmethod ran from js method in Custom'.js, returns Quizes gathered from database in page_prerender event
+        {
+            List<Quiz> quizData = (List<Quiz>)HttpContext.Current.Session["quizData"];
+            return quizData;
+        }
+
+        [WebMethod]
+        public static void AddName(string name) //Webmethod ran from js method in Custom'.js, returns Quizes gathered from database in page_prerender event
+        {
+            Data Data = new Data();
+            Data.AddName(name);
+        }
+
+        [WebMethod]
+        public static void AddResult(string quizIndex, string correct, string incorrect) //Webmethod ran from js method in Custom'.js, returns Quizes gathered from database in page_prerender event
+        {
+            Data Data = new Data();
+            Data.AddResult(quizIndex, correct, incorrect);
+        }
+
+        [WebMethod]
+        public static List<Result> GetScores(string quizIndex) //Webmethod ran from js method in Custom'.js, returns Quizes gathered from database in page_prerender event
+        {
+            List<string> lstResultId = new List<string>();
+            List<string> lstCorrect = new List<string>();
+            List<string> lstIncorrect = new List<string>();
+            List<string> lstQuizId = new List<string>();
+            List<string> lstUserId = new List<string>();
+            List<string> lstName = new List<string>();
+
+            Data resultData = new Data();
+            resultData.GetScores(quizIndex, out lstResultId, out lstCorrect, out lstIncorrect, out lstQuizId, out lstUserId, out lstName);
+            List<Result> Results = new List<Result>();
+            for (int i = 0; i < lstResultId.Count(); i++)
+            {
+                Results.Add(new Result(lstResultId[i], lstCorrect[i], lstIncorrect[i], lstQuizId[i], lstUserId[i], lstName[i]));
+            }
+            return Results;
         }
     }
 }

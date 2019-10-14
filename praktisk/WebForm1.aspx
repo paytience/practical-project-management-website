@@ -14,6 +14,8 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.css">
+
 
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
@@ -38,8 +40,8 @@
 <body id="page-top" onload="init()">
     <form id="form1" runat="server">
 
-        <!-- init controls -->
-        <asp:HiddenField ID="hidFldAnswerIndex" ClientIDMode="Static" runat="server" Value="3" />
+        <%--        <!-- init controls -->
+        <asp:HiddenField ID="hidFldAnswerIndex" ClientIDMode="Static" runat="server" Value="3" />--%>
 
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -94,18 +96,18 @@
                                 Lecture
                             </button>
                             <div runat="server" id="dropdownmenu" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <button runat="server" id="dropdwn1" class="dropdown-item text-secondary disabled" data-toggle="modal" data-target="#LectureModal" type="button">Lecture 1: Intro</button>
-                                <button runat="server" id="dropdwn2" onclick="openModal(this)" class="dropdown-item" value="2" data-toggle="modal" data-target="#LectureModal" type="button">Lecture 2</button>
-                                <button runat="server" id="dropdwn3" class="dropdown-item" data-toggle="modal" data-target="#addWorkModal" type="button">Lecture 3</button>
-                                <button runat="server" id="dropdwn4" class="dropdown-item" data-toggle="modal" data-target="#changeWorkModal" type="button">Lecture 4</button>
-                                <button runat="server" id="dropdwn5" class="dropdown-item" data-toggle="modal" data-target="#Lecture5Modal" type="button">Lecture 5</button>
-                                <button runat="server" id="dropdwn6" class="dropdown-item" data-toggle="modal" data-target="#Lecture6Modal" type="button">Lecture 6</button>
-                                <button runat="server" id="dropdwn7" class="dropdown-item" data-toggle="modal" data-target="#Lecture7Modal" type="button">Lecture 7</button>
-                                <button runat="server" id="dropdwn8" class="dropdown-item" data-toggle="modal" data-target="#Lecture8Modal" type="button">Lecture 8</button>
-                                <button runat="server" id="dropdwn9" class="dropdown-item" data-toggle="modal" data-target="#Lecture9Modal" type="button">Lecture 9</button>
-                                <button runat="server" id="dropdwn10" class="dropdown-item" data-toggle="modal" data-target="#Lecture10Modal" type="button">Lecture 10</button>
-                                <button runat="server" id="dropdwn11" class="dropdown-item" data-toggle="modal" data-target="#Lecture11Modal" type="button">Lecture 11</button>
-                                <button runat="server" id="dropdwn12" class="dropdown-item" data-toggle="modal" data-target="#Lecture11Modal" type="button">Lecture 12</button>
+                                <button runat="server" id="dropdown1" onclick="openModal(this)" class="dropdown-item text-secondary disabled" style="display: none" value="0" data-toggle="modal" data-target="#LectureModal" type="button">1</button>
+                                <button runat="server" id="dropdown2" onclick="openModal(this)" class="dropdown-item" style="display: none" value="1" data-toggle="modal" data-target="#LectureModal" type="button">2</button>
+                                <button runat="server" id="dropdown3" onclick="openModal(this)" class="dropdown-item" style="display: none" value="2" data-toggle="modal" data-target="#LectureModal" type="button">3</button>
+                                <button runat="server" id="dropdown4" onclick="openModal(this)" class="dropdown-item" style="display: none" value="3" data-toggle="modal" data-target="#LectureModal" type="button">4</button>
+                                <button runat="server" id="dropdown5" onclick="openModal(this)" class="dropdown-item" style="display: none" value="4" data-toggle="modal" data-target="#LectureModal" type="button">5</button>
+                                <button runat="server" id="dropdown6" onclick="openModal(this)" class="dropdown-item" style="display: none" value="5" data-toggle="modal" data-target="#LectureModal" type="button">6</button>
+                                <button runat="server" id="dropdown7" onclick="openModal(this)" class="dropdown-item" style="display: none" value="6" data-toggle="modal" data-target="#LectureModal" type="button">7</button>
+                                <button runat="server" id="dropdown8" onclick="openModal(this)" class="dropdown-item" style="display: none" value="7" data-toggle="modal" data-target="#LectureModal" type="button">8</button>
+                                <button runat="server" id="dropdown9" onclick="openModal(this)" class="dropdown-item" style="display: none" value="8" data-toggle="modal" data-target="#LectureModal" type="button">9</button>
+                                <button runat="server" id="dropdown10" onclick="openModal(this)" class="dropdown-item" style="display: none" value="9" data-toggle="modal" data-target="#LectureModal" type="button">10</button>
+                                <button runat="server" id="dropdown11" onclick="openModal(this)" class="dropdown-item" style="display: none" value="10" data-toggle="modal" data-target="#LectureModal" type="button">11</button>
+                                <button runat="server" id="dropdown12" onclick="openModal(this)" class="dropdown-item" style="display: none" value="11" data-toggle="modal" data-target="#LectureModal" type="button">12</button>
                             </div>
                         </div>
                         <%--                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>--%>
@@ -796,17 +798,17 @@
             </div>
         </div>
 
-        <!-- addModal Modal -->
+        <!-- lectureModal Modal -->
         <div id="LectureModal" class="modal fade" role="dialog" tabindex="-1">
             <div class="page-section">
                 <div class="modal-dialog modal-lg" style="max-width: 70%;">
-                    <!-- addWorkModal content-->
+                    <!-- lectureWorkModal content-->
                     <div class="modal-content">
                         <div class="modal-header">
                             <h4 class="modal-title" id="modalTitle">Lecture 1</h4>
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
-                        <!-- addWorkModal body-->
+                        <!-- lectureWorkModal body-->
                         <div class="modal-body">
                             <div class="container-fluid">
                                 <div class="row">
@@ -820,7 +822,7 @@
                                         <!-- RADIO BUTTONS BLOCK -->
                                         <div class="col-lg-6">
                                             <div class="frb frb-primary">
-                                                <input type="radio" id="radio-button-1" name="radio-button" value="1">
+                                                <input type="radio" id="radio-button-1" onclick="altCheck(this)" name="radio-button" value="1">
                                                 <label for="radio-button-1" id="alt1Box">
                                                     <span class="frb-title">1</span>
                                                     <span class="frb-description text-dark" id="alt1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
@@ -829,7 +831,7 @@
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="frb frb-primary">
-                                                <input type="radio" id="radio-button-2" name="radio-button" value="2">
+                                                <input type="radio" id="radio-button-2" onclick="altCheck(this)" name="radio-button" value="2">
                                                 <label for="radio-button-2" id="alt2Box">
                                                     <span class="frb-title">2</span>
                                                     <span class="frb-description text-dark" id="alt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
@@ -840,7 +842,7 @@
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="frb frb-primary">
-                                                <input type="radio" id="radio-button-3" name="radio-button" value="3">
+                                                <input type="radio" id="radio-button-3" onclick="altCheck(this)" name="radio-button" value="3">
                                                 <label for="radio-button-3" id="alt3Box">
                                                     <span class="frb-title">3</span>
                                                     <span class="frb-description text-dark" id="alt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
@@ -849,7 +851,7 @@
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="frb frb-primary">
-                                                <input type="radio" id="radio-button-4" name="radio-button" value="4">
+                                                <input type="radio" id="radio-button-4" onclick="altCheck(this)" name="radio-button" value="4">
                                                 <label for="radio-button-4" id="alt4Box">
                                                     <span class="frb-title">4</span>
                                                     <span class="frb-description text-dark" id="alt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
@@ -859,41 +861,85 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-1">
+                                    <div class="col-sm-5">
                                         <button runat="server" onclick="lifeLine5050()" id="lifeLine1" class="btn float-left text-uppercase btn-primary" type="button">50/50</button>
                                     </div>
-                                    <div class="col-lg-9"></div>
-                                    
-                                    <div class="col-lg-1">
-                                        <button runat="server" onclick="back()" id="btnBack" class="btn d-none float-right text-uppercase btn-primary" type="button">Back</button>
-                                    </div>
-                                    <div class="col-lg-1">
-                                        <button runat="server" onclick="next()" id="btnNext" class="btn float-right text-uppercase btn-primary" type="button">Next</button>
+
+                                    <div class="col-sm-7 text-right">
+                                        <button runat="server" onclick="back()" id="btnBack" class="btn d-none text-uppercase btn-primary" type="button">Back</button>
+                                        <button runat="server" onclick="next()" id="btnNext" class="btn d-none text-uppercase btn-primary" type="button">Next</button>
                                     </div>
                                 </div>
-                                <!-- addWorkModal alert-->
                                 <div class="row my-2">
-                                    <div class="col-sm-12">
-                                        <div id="alertAddDiv" style="display: none;" class="alert alert-danger alert alert-dismissible" role="alert">
-                                            <div id="addMessage">
-                                            </div>
-                                            <button type="button" class="close" data-hide="alert" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
+                                    <div class="col-sm-4"></div>
+                                    <div class="col-sm-4">
+                                        <input runat="server" class="form-control d-none" id="txtName" type="text" placeholder="Your Name">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <%--                                        <button runat="server" onclick="submit()" id="btnSubmit" data-target="#LeaderBoardModal" data-dismiss="modal" data-toggle="modal" class="btn d-none text-uppercase btn-primary" type="button">Submit</button>--%>
+                                        <button runat="server" onclick="submit()" id="btnSubmit" class="btn d-none text-uppercase btn-primary" type="button">Submit</button>
+                                    </div>
+                                </div>
+                                <div class="row my-2">
+                                    <div id="alertDiv" style="display: none;" class="alert mx-auto alert-danger alert alert-dismissible" role="alert">
+                                        <div id="addMessage">
+                                            <strong>Ops!</strong> Vennligst velg et alternativ.
                                         </div>
                                     </div>
                                 </div>
+
+                                <!-- lectureModal footer-->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <%--                    <button runat="server" onclick="addWork()" id="Button1" class="btn btn-primary" type="button">Legg til arbeid</button>--%>
+                                </div>
                             </div>
-                        </div>
-                        <!-- addWorkModal footer-->
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <%--                    <button runat="server" onclick="addWork()" id="Button1" class="btn btn-primary" type="button">Legg til arbeid</button>--%>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- LeaderBoardModal Modal -->
+        <div id="LeaderBoardModal" class="modal fade" role="dialog" tabindex="-1">
+            <div class="page-section">
+                <div class="modal-dialog modal-lg" style="max-width: 70%;">
+                    <!-- LeaderBoardModal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modalTitle2">Leaderboard</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <!-- LeaderBoardModal body-->
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row d-flex justify-content-between bd-highlight mb-3 example-parent">
+                                    <div class="col-lg-4">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <h3 class="text-center mx-auto" id="questionText2">Question text here</h3>
+                                    </div>
+                                    <div class="text-right col-lg-4">
+                                            <button runat="server" onclick="refreshLeaderboard()" id="btnRefres" class="btn text-uppercase btn-primary" type="button">Refresh</button>
+                                    </div>
+                                </div>
+                                <table id="table1">
+                                    <thead>
+                                        <tr>
+                                            <th data-field="Name">Name</th>
+                                            <th data-field="Correct">#Correct</th>
+                                            <th data-field="Incorrect">#Incorrect</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <!-- Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.min.js" type="text/javascript"></script>
         <script src="vendor/popper/popper.min.js" type="text/javascript"></script>
@@ -909,81 +955,7 @@
         <!-- Custom scripts for this template -->
         <script src="js/agency.min.js" type="text/javascript"></script>
 
-        <!-- addModal Modal -->
-        <div id="addWorkModal" class="modal fade" role="dialog">
-            <div class="modal-dialog" style="max-width: 70%;">
-                <!-- addWorkModal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Legg til arbeid.</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <!-- addWorkModal body-->
-                    <div class="modal-body">
-                        <div class="container-fluid">
-                            <div class="row my-2" runat="server" id="row1">
-                                <div class="col-sm-4"></div>
-                                <div class="col-sm-4 autocomplete">
-                                    <label for="stationName">Stasjon navn:</label>
-                                    <asp:TextBox ID="stationName" CssClass="form-control" runat="server" Placeholder="Stasjon navn"></asp:TextBox>
-                                </div>
-                                <div class="col-sm-4"></div>
-                            </div>
-                            <div class="row my-2" runat="server" id="row2">
-                                <div class="col-sm-4"></div>
-                                <div class="col-sm-4 autocomplete">
-                                    <label for="stationID">Stasjon ID:</label>
-                                    <asp:TextBox ID="stationID" CssClass="form-control" runat="server" Placeholder="Stasjon ID"></asp:TextBox>
-                                </div>
-                                <div class="col-sm-4"></div>
-                            </div>
-                            <div class="row my-2" runat="server" id="row3">
-                                <div class="col-sm-4"></div>
-                                <div class="col-sm-4 autocomplete">
-                                    <label for="personName">Person navn:</label>
-                                    <asp:TextBox ID="personName" CssClass="form-control" runat="server" Placeholder="Person navn"></asp:TextBox>
-                                </div>
-                                <div class="col-sm-4"></div>
-                            </div>
-                            <div class="row my-2" runat="server" id="row4">
-                                <div class="col-sm-4"></div>
-                                <div class="col-sm-4 autocomplete">
-                                    <label for="personNr">Mobil nummer:</label>
-                                    <asp:TextBox ID="personNr" CssClass="form-control" runat="server" placeholder="Person nummer"></asp:TextBox>
-                                </div>
-                                <div class="col-sm-4"></div>
-                            </div>
-                            <div class="row my-2" runat="server" id="row5">
-                                <div class="col-sm-4"></div>
-                                <div class="col-sm-4">
-                                    <label for="endTime">Slutt tid:</label>
-                                    <asp:TextBox ID="endTime" TextMode="Time" CssClass="form-control" runat="server"></asp:TextBox>
-                                </div>
-                                <div class="col-sm-4"></div>
-                            </div>
-                            <!-- addWorkModal alert-->
-                            <div class="row my-2">
-                                <div class="col-sm-12">
-                                    <div id="alertAddDiv" style="display: none;" class="alert alert-danger alert alert-dismissible" role="alert">
-                                        <div id="addMessage">
-                                        </div>
-                                        <button type="button" class="close" data-hide="alert" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- addWorkModal footer-->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Lukk</button>
-                        <button runat="server" onclick="addWork()" id="Button4" class="btn btn-primary" type="button">Legg til arbeid</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        <script src="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.js"></script>
     </form>
 </body>
 

@@ -9,6 +9,8 @@
 
 namespace praktisk
 {
+
+
     public partial class WebForm1
     {
 
@@ -22,15 +24,6 @@ namespace praktisk
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// hidFldAnswerIndex control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField hidFldAnswerIndex;
-
-        /// <summary>
         /// dropdownmenu control.
         /// </summary>
         /// <remarks>
@@ -40,112 +33,112 @@ namespace praktisk
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl dropdownmenu;
 
         /// <summary>
-        /// dropdwn1 control.
+        /// dropdown1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton dropdwn1;
+        protected global::System.Web.UI.HtmlControls.HtmlButton dropdown1;
 
         /// <summary>
-        /// dropdwn2 control.
+        /// dropdown2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton dropdwn2;
+        protected global::System.Web.UI.HtmlControls.HtmlButton dropdown2;
 
         /// <summary>
-        /// dropdwn3 control.
+        /// dropdown3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton dropdwn3;
+        protected global::System.Web.UI.HtmlControls.HtmlButton dropdown3;
 
         /// <summary>
-        /// dropdwn4 control.
+        /// dropdown4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton dropdwn4;
+        protected global::System.Web.UI.HtmlControls.HtmlButton dropdown4;
 
         /// <summary>
-        /// dropdwn5 control.
+        /// dropdown5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton dropdwn5;
+        protected global::System.Web.UI.HtmlControls.HtmlButton dropdown5;
 
         /// <summary>
-        /// dropdwn6 control.
+        /// dropdown6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton dropdwn6;
+        protected global::System.Web.UI.HtmlControls.HtmlButton dropdown6;
 
         /// <summary>
-        /// dropdwn7 control.
+        /// dropdown7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton dropdwn7;
+        protected global::System.Web.UI.HtmlControls.HtmlButton dropdown7;
 
         /// <summary>
-        /// dropdwn8 control.
+        /// dropdown8 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton dropdwn8;
+        protected global::System.Web.UI.HtmlControls.HtmlButton dropdown8;
 
         /// <summary>
-        /// dropdwn9 control.
+        /// dropdown9 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton dropdwn9;
+        protected global::System.Web.UI.HtmlControls.HtmlButton dropdown9;
 
         /// <summary>
-        /// dropdwn10 control.
+        /// dropdown10 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton dropdwn10;
+        protected global::System.Web.UI.HtmlControls.HtmlButton dropdown10;
 
         /// <summary>
-        /// dropdwn11 control.
+        /// dropdown11 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton dropdwn11;
+        protected global::System.Web.UI.HtmlControls.HtmlButton dropdown11;
 
         /// <summary>
-        /// dropdwn12 control.
+        /// dropdown12 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton dropdwn12;
+        protected global::System.Web.UI.HtmlControls.HtmlButton dropdown12;
 
         /// <summary>
         /// lifeLine1 control.
@@ -175,102 +168,30 @@ namespace praktisk
         protected global::System.Web.UI.HtmlControls.HtmlButton btnNext;
 
         /// <summary>
-        /// row1 control.
+        /// txtName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl row1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtName;
 
         /// <summary>
-        /// stationName control.
+        /// btnSubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox stationName;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnSubmit;
 
         /// <summary>
-        /// row2 control.
+        /// btnRefres control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl row2;
-
-        /// <summary>
-        /// stationID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox stationID;
-
-        /// <summary>
-        /// row3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl row3;
-
-        /// <summary>
-        /// personName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox personName;
-
-        /// <summary>
-        /// row4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl row4;
-
-        /// <summary>
-        /// personNr control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox personNr;
-
-        /// <summary>
-        /// row5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl row5;
-
-        /// <summary>
-        /// endTime control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox endTime;
-
-        /// <summary>
-        /// Button4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton Button4;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnRefres;
     }
 }
