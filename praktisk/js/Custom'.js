@@ -54,7 +54,6 @@ function lifeLine5050() {
     document.getElementById("lifeLine1").disabled = true;
 }
 
-
 function altCheck(button) {
    // console.log(" ind: " + ind.toString() + " questionInd: " + questionInd.toString() + " buttonvalue: " + (button.value).toString());
     arrChoices[ind][questionInd][button.value - 1] = "1";
@@ -110,9 +109,6 @@ function next() {
         $('#alertDiv').fadeIn();
     }
 }
-
-
-
 
 function submit() {
     var chk1 = altRadios[0].checked;
@@ -298,6 +294,185 @@ function shuffle(array) {
         // let t = array[i]; array[i] = array[j]; array[j] = t
         [array[i], array[j]] = [array[j], array[i]];
     }
+}
+
+function back2() {
+    var resultAltRadioBoxes = [document.getElementById("alt1ResultBox"), document.getElementById("alt2ResultBox"), document.getElementById("alt3ResultBox"), document.getElementById("alt4ResultBox")];
+    var resultAltRadios = [document.getElementById("radio-button-1result"), document.getElementById("radio-button-2result"), document.getElementById("radio-button-3result"), document.getElementById("radio-button-4result")];
+    var altResults = [document.getElementById("altResult1"), document.getElementById("altResult2"), document.getElementById("altResult3"), document.getElementById("altResult4")];
+    var btnResultBack = document.getElementById('btnResultBack');
+    var btnResultNext = document.getElementById('btnResultNext');
+    var modalTitle3 = document.getElementById('modalTitle3');
+    var questionText3 = document.getElementById('questionText3');
+
+    questionInd--;
+
+    alternative = quizes[ind].Questions[questionInd].Alternatives;
+    //Fill alternatives with text
+    altResults[0].innerHTML = alternative[0].AlternativeText;
+    altResults[1].innerHTML = alternative[1].AlternativeText;
+    altResults[2].innerHTML = alternative[2].AlternativeText;
+    altResults[3].innerHTML = alternative[3].AlternativeText;
+
+    modalTitle3.innerHTML = quizes[ind].QuizName;
+    questionText3.innerHTML = quizes[ind].Questions[questionInd].QuestionText;
+
+    for (var i = 0; i < 4; i++) {
+        if (arrChoices[ind][questionInd][i] == "1") {
+            resultAltRadios[arrChoices[ind][questionInd].indexOf("1")].checked = true;
+            resultAltRadioBoxes[arrChoices[ind][questionInd].indexOf("1")].classList.add('bg-success');
+        }
+        else {
+            resultAltRadios[i].checked = false;
+        }
+    }
+
+    for (var i = 0; i < 4; i++) {
+        resultAltRadios[i].disabled = true;
+        resultAltRadioBoxes[i].disabled = true;
+    }
+
+    btnResultNext.classList.remove('d-none');
+
+    if (questionInd == 0) {
+        btnResultBack.classList.add('d-none');
+    }
+
+    for (var i = 0; i < 4; i++) {
+        resultAltRadioBoxes[i].classList.remove('bg-success');
+        resultAltRadioBoxes[i].classList.remove('bg-danger');
+    }
+    resultAltRadios[arrChoices[ind][questionInd].indexOf("1")].checked = true;
+    resultAltRadioBoxes[arrChoices[ind][questionInd].indexOf("1")].classList.add('bg-danger');
+    resultAltRadioBoxes[arrCorrectAnswers[ind][questionInd].indexOf("1")].classList.add('bg-success');
+    if (arrChoices[ind][questionInd].indexOf("1") == arrCorrectAnswers[ind][questionInd].indexOf("1")) {
+        resultAltRadioBoxes[arrChoices[ind][questionInd].indexOf("1")].classList.remove('bg-danger');
+    }
+}
+
+function next2() {
+    var resultAltRadioBoxes = [document.getElementById("alt1ResultBox"), document.getElementById("alt2ResultBox"), document.getElementById("alt3ResultBox"), document.getElementById("alt4ResultBox")];
+    var resultAltRadios = [document.getElementById("radio-button-1result"), document.getElementById("radio-button-2result"), document.getElementById("radio-button-3result"), document.getElementById("radio-button-4result")];
+    var altResults = [document.getElementById("altResult1"), document.getElementById("altResult2"), document.getElementById("altResult3"), document.getElementById("altResult4")];
+    var btnResultBack = document.getElementById('btnResultBack');
+    var btnResultNext = document.getElementById('btnResultNext');
+    var modalTitle3 = document.getElementById('modalTitle3');
+    var questionText3 = document.getElementById('questionText3');
+
+    questionInd++;
+
+    alternative = quizes[ind].Questions[questionInd].Alternatives;
+    //Fill alternatives with text
+    altResults[0].innerHTML = alternative[0].AlternativeText;
+    altResults[1].innerHTML = alternative[1].AlternativeText;
+    altResults[2].innerHTML = alternative[2].AlternativeText;
+    altResults[3].innerHTML = alternative[3].AlternativeText;
+
+    modalTitle3.innerHTML = quizes[ind].QuizName;
+    questionText3.innerHTML = quizes[ind].Questions[questionInd].QuestionText;
+
+    for (var i = 0; i < 4; i++) {
+        resultAltRadioBoxes[i].classList.remove('bg-success');
+        resultAltRadioBoxes[i].classList.remove('bg-danger');
+    }
+    resultAltRadios[arrChoices[ind][questionInd].indexOf("1")].checked = true;
+    resultAltRadioBoxes[arrChoices[ind][questionInd].indexOf("1")].classList.add('bg-danger');
+    resultAltRadioBoxes[arrCorrectAnswers[ind][questionInd].indexOf("1")].classList.add('bg-success');
+    if (arrChoices[ind][questionInd].indexOf("1") == arrCorrectAnswers[ind][questionInd].indexOf("1")) {
+        resultAltRadioBoxes[arrChoices[ind][questionInd].indexOf("1")].classList.remove('bg-danger');
+    }
+
+    for (var i = 0; i < 4; i++) {
+        resultAltRadios[i].disabled = true;
+        resultAltRadioBoxes[i].disabled = true;
+
+    }
+
+    btnResultBack.classList.remove('d-none');
+    if (questionInd == quizes[ind].Questions.length - 1) {
+        btnResultNext.classList.add('d-none');
+    }
+}
+
+function openResultsModal() {
+    //start on question 1.
+    questionInd = 0;
+    var resultAltRadioBoxes = [document.getElementById("alt1ResultBox"), document.getElementById("alt2ResultBox"), document.getElementById("alt3ResultBox"), document.getElementById("alt4ResultBox")];
+    var resultAltRadios = [document.getElementById("radio-button-1result"), document.getElementById("radio-button-2result"), document.getElementById("radio-button-3result"), document.getElementById("radio-button-4result")];
+    var altResults = [document.getElementById("altResult1"), document.getElementById("altResult2"), document.getElementById("altResult3"), document.getElementById("altResult4")];
+    var btnResultBack = document.getElementById('btnResultBack');
+    var btnResultNext = document.getElementById('btnResultNext');
+    var modalTitle3 = document.getElementById('modalTitle3');
+    var questionText3 = document.getElementById('questionText3');
+
+    //reset alternative boxes.
+    for (var i = 0; i < 4; i++) {
+        resultAltRadioBoxes[i].classList.remove('bg-secondary');
+        resultAltRadios[i].disabled = false;
+        resultAltRadios[i].checked = false;
+    }
+
+    //Hide back button
+    btnResultBack.classList.add('d-none');
+
+    // show or hide Next and Submit buttons.
+    if (questionInd == quizes[ind].Questions.length - 1) {
+        btnResultNext.classList.add('d-none');
+    }
+    else {
+        btnResultNext.classList.remove('d-none');
+    }
+
+    //Fill alternatives with text
+    altResults[0].innerHTML = alternative[0].AlternativeText;
+    altResults[1].innerHTML = alternative[1].AlternativeText;
+    altResults[2].innerHTML = alternative[2].AlternativeText;
+    altResults[3].innerHTML = alternative[3].AlternativeText;
+
+    modalTitle3.innerHTML = quizes[ind].QuizName;
+    questionText3.innerHTML = quizes[ind].Questions[questionInd].QuestionText;
+
+    for (var i = 0; i < 4; i++) {
+        if (arrChoices[ind][questionInd][i] == "1") {
+            resultAltRadios[arrChoices[ind][questionInd].indexOf("1")].checked = true;
+            resultAltRadioBoxes[arrChoices[ind][questionInd].indexOf("1")].classList.add('bg-success');
+        }
+        else {
+            resultAltRadios[i].checked = false;
+        }
+    }
+
+    for (var i = 0; i < 4; i++) {
+        resultAltRadios[i].disabled = true;
+        resultAltRadioBoxes[i].disabled = true;
+    }
+    for (var i = 0; i < 4; i++) {
+        resultAltRadioBoxes[i].classList.remove('bg-success');
+        resultAltRadioBoxes[i].classList.remove('bg-danger');
+    }
+    resultAltRadios[arrChoices[ind][questionInd].indexOf("1")].checked = true;
+    resultAltRadioBoxes[arrChoices[ind][questionInd].indexOf("1")].classList.add('bg-danger');
+    resultAltRadioBoxes[arrCorrectAnswers[ind][questionInd].indexOf("1")].classList.add('bg-success');
+    if (arrChoices[ind][questionInd].indexOf("1") == arrCorrectAnswers[ind][questionInd].indexOf("1")) {
+        resultAltRadioBoxes[arrChoices[ind][questionInd].indexOf("1")].classList.remove('bg-danger');
+    }
+    $('#ResultModal').on('hidden.bs.modal', function () {
+        for (var i = 0; i < quizes.length; i++) {
+            arrChoices[i] = [];
+            arrLifeLines[i] = [];
+            for (var j = 0; j < quizes[i].Questions.length; j++) {
+                arrChoices[i][j] = [];
+                arrLifeLines[i][j] = [];
+                for (var k = 0; k < quizes[i].Questions[j].Alternatives.length; k++) {
+                    arrChoices[i][j][k] = "0";
+                    arrLifeLines[i][j][k] = "0";
+                }
+            }
+        }
+    });
+
+    $('#LeaderBoardModal').modal('hide');
+    $('#ResultModal').modal('show');
 }
 
 function init() {

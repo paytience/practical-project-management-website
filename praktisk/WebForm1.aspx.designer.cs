@@ -141,6 +141,15 @@ namespace praktisk
         protected global::System.Web.UI.HtmlControls.HtmlButton dropdown12;
 
         /// <summary>
+        /// sendMessageButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button sendMessageButton;
+
+        /// <summary>
         /// lifeLine1 control.
         /// </summary>
         /// <remarks>
@@ -186,12 +195,39 @@ namespace praktisk
         protected global::System.Web.UI.HtmlControls.HtmlButton btnSubmit;
 
         /// <summary>
-        /// btnRefres control.
+        /// btnViewResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnRefres;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnViewResult;
+
+        /// <summary>
+        /// btnRefresh control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnRefresh;
+
+        /// <summary>
+        /// btnResultBack control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnResultBack;
+
+        /// <summary>
+        /// btnResultNext control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnResultNext;
     }
 }
