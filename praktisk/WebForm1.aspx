@@ -40,16 +40,12 @@
 <body id="page-top" onload="init()">
     <form id="form1" runat="server">
 
-        <%--        <!-- init controls -->
-        <asp:HiddenField ID="hidFldAnswerIndex" ClientIDMode="Static" runat="server" Value="3" />--%>
-
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">Back To Start</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-        <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
@@ -110,8 +106,8 @@
                                 <button runat="server" id="dropdown12" onclick="openModal(this)" class="dropdown-item" style="display: none" value="11" data-toggle="modal" data-target="#LectureModal" type="button">12</button>
                             </div>
                         </div>
-                        <%--                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>--%>
                     </div>
+                </div>
                 </div>
         </section>
 
@@ -522,28 +518,29 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                                        <input class="form-control" id="name" name="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                                        <input class="form-control" id="email" name="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+                                        <input class="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                        <textarea class="form-control" id="message" name="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="col-lg-12 text-center">
                                     <div id="success"></div>
-                                    <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                                    <asp:Button runat="server" id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" Text="Send Message" OnClick="sendMessageButton_Click"/>
+<%--                                    <button runat="server" id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>--%>
                                 </div>
                             </div>
                         </form>
@@ -620,7 +617,8 @@
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
-                                        Close </button>
+                                        Close
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -654,7 +652,8 @@
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
-                                        Close </button>
+                                        Close
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -688,7 +687,8 @@
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
-                                        Close </button>
+                                        Close
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -722,7 +722,8 @@
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
-                                        Close </button>
+                                        Close
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -756,7 +757,8 @@
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
-                                        Close </button>
+                                        Close
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -790,7 +792,8 @@
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
-                                        Close </button>
+                                        Close
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -921,7 +924,8 @@
                                         <h3 class="text-center mx-auto" id="questionText2">Question text here</h3>
                                     </div>
                                     <div class="text-right col-lg-4">
-                                            <button runat="server" onclick="refreshLeaderboard()" id="btnRefres" class="btn text-uppercase btn-primary" type="button">Refresh</button>
+                                        <button runat="server" onclick="openResultsModal()" id="btnViewResult" class="btn text-uppercase btn-primary" type="button">View Result</button>
+                                        <button runat="server" onclick="refreshLeaderboard()" id="btnRefresh" class="btn text-uppercase btn-primary" type="button">Refresh</button>
                                     </div>
                                 </div>
                                 <table id="table1">
@@ -933,6 +937,88 @@
                                         </tr>
                                     </thead>
                                 </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ResultModal Modal -->
+        <div id="ResultModal" class="modal fade" role="dialog" tabindex="-1">
+            <div class="page-section">
+                <div class="modal-dialog modal-lg" style="max-width: 70%;">
+                    <!-- ResultModal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modalTitle3">Result</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <!-- ResultModal body-->
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h3 class="text-center mx-auto" id="questionText3">Question text here</h3>
+                                    </div>
+                                </div>
+                                <div class="frb-group">
+                                    <div class="row">
+                                        <!-- RADIO BUTTONS BLOCK -->
+                                        <div class="col-lg-6">
+                                            <div class="frb frb-primary">
+                                                <input type="radio" id="radio-button-1result" name="radio-button2" value="1">
+                                                <label for="radio-button-1" id="alt1ResultBox">
+                                                    <span class="frb-title">1</span>
+                                                    <span class="frb-description text-dark" id="altResult1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="frb frb-primary">
+                                                <input type="radio" id="radio-button-2result" name="radio-button2" value="2">
+                                                <label for="radio-button-2" id="alt2ResultBox">
+                                                    <span class="frb-title">2</span>
+                                                    <span class="frb-description text-dark" id="altResult2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="frb frb-primary">
+                                                <input type="radio" id="radio-button-3result" name="radio-button2" value="3">
+                                                <label for="radio-button-3" id="alt3ResultBox">
+                                                    <span class="frb-title">3</span>
+                                                    <span class="frb-description text-dark" id="altResult3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="frb frb-primary">
+                                                <input type="radio" id="radio-button-4result" name="radio-button2" value="4">
+                                                <label for="radio-button-4" id="alt4ResultBox">
+                                                    <span class="frb-title">4</span>
+                                                    <span class="frb-description text-dark" id="altResult4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                    </div>
+
+                                    <div class="col-sm-7 text-right">
+                                        <button runat="server" onclick="back2()" id="btnResultBack" class="btn d-none text-uppercase btn-primary" type="button">Back</button>
+                                        <button runat="server" onclick="next2()" id="btnResultNext" class="btn d-none text-uppercase btn-primary" type="button">Next</button>
+                                    </div>
+                                </div>
+
+                                <!-- lectureModal footer-->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>

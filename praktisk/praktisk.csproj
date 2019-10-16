@@ -84,7 +84,6 @@
     <Content Include="img\team\wilhelm.jpg" />
     <Content Include="js\Custom%27.js" />
     <Content Include="packages.config" />
-    <Content Include="mail\contact_me.php" />
     <Content Include="scss\agency.scss" />
     <Content Include="scss\base\_mixins.scss" />
     <Content Include="scss\base\_page.scss" />

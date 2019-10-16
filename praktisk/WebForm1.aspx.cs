@@ -6,6 +6,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.HtmlControls;
+using System.Web.Mail;
+using System.Net.Mail;
 
 namespace praktisk
 {
@@ -108,6 +110,38 @@ namespace praktisk
                 Results.Add(new Result(lstResultId[i], lstCorrect[i], lstIncorrect[i], lstQuizId[i], lstUserId[i], lstName[i]));
             }
             return Results;
+        }
+
+        protected void sendMessageButton_Click(object sender, EventArgs e)
+        {
+            string name = String.Format("{0}", Request.Form["name"]);
+            string email = String.Format("{0}", Request.Form["email"]);
+            string phone = String.Format("{0}", Request.Form["phone"]);
+            string message = String.Format("{0}", Request.Form["message"]);
+            SmtpClient smtpClient = new SmtpClient("smtp.live.com", 25)
+            {
+                Credentials = new System.Net.NetworkCredential("praktisktest@hotmail.com", "Nyemailinfotest5"),
+                DeliveryMethod = SmtpDeliveryMethod.Network,
+                EnableSsl = true
+            };
+            System.Net.Mail.MailMessage mail = new System.Net.Mail.MailMessage();
+
+            //Setting From , To and CC
+            mail.Subject = "Praktisk test website contact";
+            mail.Body = "Thank you for contacting us " + name + ", your message has been received! \n \n You wrote: " + message + "\n\n ";
+            mail.From = new MailAddress("praktisktest@hotmail.com", "Praktisk Website");
+            mail.To.Add(new MailAddress(email));
+
+            System.Net.Mail.MailMessage mail2 = new System.Net.Mail.MailMessage();
+
+            //Setting From , To and CC
+            mail2.Subject = "Praktisk test website contact";
+            mail2.Body = name + " skrev: " + message;
+            mail2.From = new MailAddress("praktisktest@hotmail.com", "Praktisk Website");
+            mail2.To.Add(new MailAddress("casperknilsen@gmail.com"));
+
+            smtpClient.Send(mail);
+            smtpClient.Send(mail2);
         }
     }
 }
