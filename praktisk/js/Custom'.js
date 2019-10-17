@@ -1,5 +1,6 @@
 ﻿var arrChoices = [[[]]];
-var arrLifeLines = [[[]]];
+var arrLifeLines1 = [[[]]];
+var arrLifeLines2 = [[]];
 var arrCorrectAnswers = [[[]]];
 
 var quizes;
@@ -8,6 +9,7 @@ var modalTitle;
 var questionText;
 var quiz;
 var question;
+var hint;
 var alternatives;
 
 var btnBack;
@@ -21,6 +23,17 @@ var questionInd;
 var alts;
 var altRadios;
 var altRadioBoxes;
+
+function lifeLineHint() { 
+    document.getElementById("hint").innerHTML = hint;
+    $('#hint').fadeIn();
+    //Save LifeLine use
+    arrLifeLines2[ind][questionInd] = "1";
+
+
+    //Disable lifeline
+    document.getElementById("lifeLine2").disabled = true;
+}
 
 function lifeLine5050() {
     for (var i = 0; i < 4; i++) {
@@ -41,8 +54,8 @@ function lifeLine5050() {
     arr.splice(0, 1);
 
     //Save LifeLine use
-    arrLifeLines[ind][questionInd][arr[0] - 1] = "1";
-    arrLifeLines[ind][questionInd][arr[1] - 1] = "1";
+    arrLifeLines1[ind][questionInd][arr[0] - 1] = "1";
+    arrLifeLines1[ind][questionInd][arr[1] - 1] = "1";
 
     //grey out boxes
     altRadioBoxes[arr[0] - 1].classList.add('bg-secondary');
@@ -73,6 +86,7 @@ function altCheck(button) {
 function back() {
     questionInd--;
     $('#alertDiv').hide();
+    $('#hint').hide();
 
     fillModal(ind);
 
@@ -91,6 +105,7 @@ function next() {
     var chk3 = altRadios[2].checked;
     var chk4 = altRadios[3].checked;
     if (chk1 | chk2 | chk3 | chk4) {
+        $('#hint').hide();
         $('#alertDiv').hide();
         questionInd++;
 
@@ -199,6 +214,8 @@ function refreshLeaderboard() {
 
 function resetModal() {
     document.getElementById("lifeLine1").disabled = true;
+    document.getElementById("lifeLine2").disabled = true;
+    $('#hint').hide();
 
     //start on question 1.
     questionInd = 0;
@@ -227,6 +244,7 @@ function resetModal() {
 
 function fillModal() {
     alternative = quizes[ind].Questions[questionInd].Alternatives;
+    hint = quizes[ind].Questions[questionInd].Hint;
 
     //Fill alternatives with text
     alts[0].innerHTML = alternative[0].AlternativeText;
@@ -248,7 +266,7 @@ function fillModal() {
     }
 
     for (var i = 0; i < 4; i++) {
-        if (arrLifeLines[ind][questionInd][i] == "1") {
+        if (arrLifeLines1[ind][questionInd][i] == "1") {
             //grey out boxes
             altRadioBoxes[i].classList.add('bg-secondary');
 
@@ -260,13 +278,22 @@ function fillModal() {
             altRadios[i].disabled = false;
         }
     }
+
+    if (arrLifeLines2[ind][questionInd] == "1") {
+        lifeLineHint();
+    }
 }
 
 function checkLifeLine() {
-    if (exists(arrLifeLines[ind], '1')) {
+    if (exists(arrLifeLines1[ind], '1')) {
         document.getElementById("lifeLine1").disabled = true;
     } else {
         document.getElementById("lifeLine1").disabled = false;
+    }
+    if (exists(arrLifeLines2[ind], '1')) {
+        document.getElementById("lifeLine2").disabled = true;
+    } else {
+        document.getElementById("lifeLine2").disabled = false;
     }
 }
 
@@ -459,13 +486,15 @@ function openResultsModal() {
     $('#ResultModal').on('hidden.bs.modal', function () {
         for (var i = 0; i < quizes.length; i++) {
             arrChoices[i] = [];
-            arrLifeLines[i] = [];
+            arrLifeLines1[i] = [];
+            arrLifeLines2[i] = [];
             for (var j = 0; j < quizes[i].Questions.length; j++) {
                 arrChoices[i][j] = [];
-                arrLifeLines[i][j] = [];
+                arrLifeLines1[i][j] = [];
+                arrLifeLines2[i][j] = "0";
                 for (var k = 0; k < quizes[i].Questions[j].Alternatives.length; k++) {
                     arrChoices[i][j][k] = "0";
-                    arrLifeLines[i][j][k] = "0";
+                    arrLifeLines1[i][j][k] = "0";
                 }
             }
         }
@@ -499,11 +528,13 @@ function init() {
             for (var i = 0; i < quizes.length; i++) {
                 arrChoices[i] = [];
                 arrCorrectAnswers[i] = [];
-                arrLifeLines[i] = [];
+                arrLifeLines1[i] = [];
+                arrLifeLines2[i] = [];
                 for (var j = 0; j < quizes[i].Questions.length; j++) {
                     arrChoices[i][j] = [];
                     arrCorrectAnswers[i][j] = [];
-                    arrLifeLines[i][j] = [];
+                    arrLifeLines1[i][j] = [];
+                    arrLifeLines2[i][j] = "0";
                     for (var k = 0; k < quizes[i].Questions[j].Alternatives.length; k++) {
                         arrChoices[i][j][k] = "0";
                         if (quizes[i].Questions[j].Alternatives[k].Correct == "True") {
@@ -513,7 +544,7 @@ function init() {
                         {
                             arrCorrectAnswers[i][j][k] = "0";
                         }
-                        arrLifeLines[i][j][k] = "0";
+                        arrLifeLines1[i][j][k] = "0";
                     }
                 }
             }

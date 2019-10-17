@@ -29,6 +29,7 @@ namespace praktisk
             List<string> lstQuestionText = new List<string>();
             List<string> lstQuizQuestionId = new List<string>();
             List<string> lstQuestionDifficulty = new List<string>();
+            List<string> lstQuestionHint = new List<string>();
 
             List<string> lstAlternativeId = new List<string>();
             List<string> lstQuestionAlternativeId = new List<string>();
@@ -38,8 +39,9 @@ namespace praktisk
             Data quizData = new Data();
 
             quizData.GetQuizNames(out lstQuizId, out lstQuizNames);
-            quizData.GetQuestions(out lstQuestionId, out lstQuestionText, out lstQuizQuestionId, out lstQuestionDifficulty);
+            quizData.GetQuestions(out lstQuestionId, out lstQuestionText, out lstQuizQuestionId, out lstQuestionDifficulty, out lstQuestionHint);
             quizData.GetAlternatives(out lstAlternativeId, out lstQuestionAlternativeId, out lstCorrect, out lstAlternativeText);
+
 
             List<Quiz> Quizes = new List<Quiz>();
             for (int i = 0; i < lstQuizId.Count(); i++) //3 times
@@ -57,7 +59,7 @@ namespace praktisk
                                 Alternatives.Add(new Alternative(lstAlternativeId[k], lstQuestionAlternativeId[k], lstCorrect[k], lstAlternativeText[k]));
                             }
                         }
-                        Questions.Add(new Question(lstQuestionId[j], lstQuestionText[j], lstQuizQuestionId[j], lstQuestionDifficulty[j], Alternatives));
+                        Questions.Add(new Question(lstQuestionId[j], lstQuestionText[j], lstQuizQuestionId[j], lstQuestionDifficulty[j], Alternatives, lstQuestionHint[j]));
                     }
                 }
                 Quizes.Add(new Quiz(lstQuizId[i], lstQuizNames[i], Questions));

@@ -159,6 +159,15 @@ namespace praktisk
         protected global::System.Web.UI.HtmlControls.HtmlButton lifeLine1;
 
         /// <summary>
+        /// lifeLine2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlButton lifeLine2;
+
+        /// <summary>
         /// btnBack control.
         /// </summary>
         /// <remarks>

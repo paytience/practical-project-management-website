@@ -35,12 +35,13 @@ namespace praktisk
             }
         }
 
-        public void GetQuestions(out List<string> questionId, out List<string> questionText, out List<string> quizQuestionId, out List<string> questionDifficulty) //gets station information from SQL database
+        public void GetQuestions(out List<string> questionId, out List<string> questionText, out List<string> quizQuestionId, out List<string> questionDifficulty, out List<string> questionHint) //gets station information from SQL database
         {
             questionId = new List<string>();
             questionText = new List<string>();
             quizQuestionId = new List<string>();
             questionDifficulty = new List<string>();
+            questionHint = new List<string>();
 
             using (SqlCommand cmd = new SqlCommand(StoredProcedure.GetQuestions.ToString(), con))
             {
@@ -53,6 +54,7 @@ namespace praktisk
                     questionText.Add(reader.GetString(1));
                     quizQuestionId.Add(reader.GetString(2));
                     questionDifficulty.Add(reader.GetString(3));
+                    questionHint.Add(reader.GetString(4));
                 }
                 con.Close();
             }
