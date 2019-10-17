@@ -82,10 +82,12 @@
     <Content Include="img\about\Chapter_8.png" />
     <Content Include="img\about\Chapter_9.png" />
     <Content Include="img\bg.jpg" />
+    <Content Include="img\portfolio\01-metalearing.jpg" />
     <Content Include="img\portfolio\Azure-thumbnail.jpg" />
     <Content Include="img\portfolio\Bootstrap-thumbnail.jpg" />
     <Content Include="img\portfolio\Csharp-thumbnail.jpg" />
     <Content Include="img\portfolio\Mission-thumbnail.jpg" />
+    <Content Include="img\portfolio\programming.jpg" />
     <Content Include="img\portfolio\Project-thumbnail.jpg" />
     <Content Include="img\portfolio\SQL-thumbnail.jpg" />
     <Content Include="img\team\casper.jpg" />
