@@ -57,6 +57,9 @@
                             <a class="nav-link js-scroll-trigger" href="#services">Take Test</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#Summarys">Summarys</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#portfolio">About</a>
                         </li>
                         <li class="nav-item">
@@ -146,6 +149,188 @@
             </div>
         </section>
 
+
+        <!-- Summarys Grid -->
+        <section class="bg-light page-section" id="Summarys">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Summarys</h2>
+                        <h3 class="section-subheading text-muted">Click on any of the chapters below to read more about them.</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="../img/about/Chapter_1.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Chapter 1</h4>
+                            <p class="text-muted">Introduction</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="../img/about/Chapter_2.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Chapter 2</h4>
+                            <p class="text-muted">Project characteristics</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="img/about/Chapter_3.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Chapter 3</h4>
+                            <p class="text-muted">Insert chapter name</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="img/about/Chapter_4.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Chapter 4</h4>
+                            <p class="text-muted">Insert chapter name</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="img/about/Chapter_5.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Chapter 5</h4>
+                            <p class="text-muted">Insert chapter name</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="img/about/Chapter_6.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Chapter 6</h4>
+                            <p class="text-muted">Insert chapter name</p>
+                        </div>
+                    </div>
+                     <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter7">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="img/about/Chapter_7.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Chapter 7</h4>
+                            <p class="text-muted">Insert chapter name</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter8">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="img/about/Chapter_8.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Chapter 8</h4>
+                            <p class="text-muted">Insert chapter name</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter9">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="img/about/Chapter_9.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Chapter 9</h4>
+                            <p class="text-muted">Insert chapter name</p>
+                        </div>
+                    </div>
+                     <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter10">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="img/about/Chapter_10.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Chapter 10</h4>
+                            <p class="text-muted">Insert chapter name</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter11">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="img/about/Chapter_11.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Chapter 11</h4>
+                            <p class="text-muted">Insert chapter name</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter12">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="img/about/Chapter_12.png" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Chapter 12</h4>
+                            <p class="text-muted">Insert chapter name</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
         <!-- About Grid -->
@@ -934,6 +1119,515 @@
                                     </thead>
                                 </table>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Modal 1 -->
+        <div class="portfolio-modal modal fade" id="portfolioModalChapter1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Chapter 1</h2>
+                                    <p class="item-intro text-muted">Summary
+                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
+                                    <p>There will here be a summary from this chapter!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: October 2019</li>
+                                        <li>Author: Jørgen Anker Olsen</li>
+                                        <li>Category: Summary</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        Close Chapter Summary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Summary Modal 2 -->
+        <div class="portfolio-modal modal fade" id="portfolioModalChapter2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Chapter 1</h2>
+                                    <p class="item-intro text-muted">Summary
+                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
+                                    <p>UThere will here be a summary from this chapter!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: October 2019</li>
+                                        <li>Author: Jørgen Anker Olsen</li>
+                                        <li>Category: Summary</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        Close Chapter Summary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Modal 3 -->
+        <div class="portfolio-modal modal fade" id="portfolioModalChapter3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Chapter 1</h2>
+                                    <p class="item-intro text-muted">Summary
+                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
+                                    <p>There will here be a summary from this chapter!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: October 2019</li>
+                                        <li>Author: Jørgen Anker Olsen</li>
+                                        <li>Category: Summary</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        Close Chapter Summary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Modal 4 -->
+        <div class="portfolio-modal modal fade" id="portfolioModalChapter4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Chapter 1</h2>
+                                    <p class="item-intro text-muted">Summary
+                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
+                                    <p>There will here be a summary from this chapter!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: October 2019</li>
+                                        <li>Author: Jørgen Anker Olsen</li>
+                                        <li>Category: Summary</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        Close Chapter Summary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Modal 5 -->
+        <div class="portfolio-modal modal fade" id="portfolioModalChapter5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Chapter 1</h2>
+                                    <p class="item-intro text-muted">Summary
+                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
+                                    <p>There will here be a summary from this chapter!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: October 2019</li>
+                                        <li>Author: Jørgen Anker Olsen</li>
+                                        <li>Category: Summary</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        Close Chapter Summary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Modal 6 -->
+        <div class="portfolio-modal modal fade" id="portfolioModalChapter6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Chapter 1</h2>
+                                    <p class="item-intro text-muted">Summary
+                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
+                                    <p>There will here be a summary from this chapter!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: October 2019</li>
+                                        <li>Author: Jørgen Anker Olsen</li>
+                                        <li>Category: Summary</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        Close Chapter Summary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Modal 7 -->
+        <div class="portfolio-modal modal fade" id="portfolioModalChapter7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Chapter 7</h2>
+                                    <p class="item-intro text-muted">Summary
+                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
+                                    <p>There will here be a summary from this chapter!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: October 2019</li>
+                                        <li>Author: Jørgen Anker Olsen</li>
+                                        <li>Category: Summary</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        Close Chapter Summary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Modal 8 -->
+        <div class="portfolio-modal modal fade" id="portfolioModalChapter8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Chapter 8</h2>
+                                    <p class="item-intro text-muted">Summary
+                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
+                                    <p>There will here be a summary from this chapter!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: October 2019</li>
+                                        <li>Author: Jørgen Anker Olsen</li>
+                                        <li>Category: Summary</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        Close Chapter Summary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Modal 9 -->
+        <div class="portfolio-modal modal fade" id="portfolioModalChapter9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Chapter 9</h2>
+                                    <p class="item-intro text-muted">Summary
+                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
+                                    <p>There will here be a summary from this chapter!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: October 2019</li>
+                                        <li>Author: Jørgen Anker Olsen</li>
+                                        <li>Category: Summary</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        Close Chapter Summary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Modal 10 -->
+        <div class="portfolio-modal modal fade" id="portfolioModalChapter10" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Chapter 10</h2>
+                                    <p class="item-intro text-muted">Summary
+                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
+                                    <p>There will here be a summary from this chapter!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: October 2019</li>
+                                        <li>Author: Jørgen Anker Olsen</li>
+                                        <li>Category: Summary</li>>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        Close Chapter Summary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Modal 11 -->
+        <div class="portfolio-modal modal fade" id="portfolioModalChapter11" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Chapter 11</h2>
+                                    <p class="item-intro text-muted">Summary
+                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
+                                    <p>There will here be a summary from this chapter!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: October 2019</li>
+                                        <li>Author: Jørgen Anker Olsen</li>
+                                        <li>Category: Summary</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        Close Chapter Summary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Summary Modal 12 -->
+        <div class="portfolio-modal modal fade" id="portfolioModalChapter12" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-uppercase">Chapter 12</h2>
+                                    <p class="item-intro text-muted">Summary
+                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
+                                    <p>....</p>
+                                    <ul class="list-inline">
+                                        <li>Date: October 2019</li>
+                                        <li>Author: Jørgen Anker Olsen</li>
+                                        <li>Category: Summary</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        Close Chapter Summary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- addModal Modal -->
+        <div id="Lecture1Modal" class="modal fade" role="dialog" tabindex="-1">
+            <div class="page-section">
+                <div class="modal-dialog modal-lg" style="max-width: 70%;">
+                    <!-- addWorkModal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Lecture 1</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <!-- addWorkModal body-->
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h3 class="text-center mx-auto">Question text here</h3>
+                                    </div>
+                                </div>
+                                <div class="frb-group">
+                                    <div class="row">
+
+                                        <!-- RADIO BUTTONS BLOCK -->
+                                        <div class="col-lg-6">
+                                            <div class="frb frb-primary">
+                                                <input type="radio" id="radio-button-0" name="radio-button" value="0">
+                                                <label for="radio-button-0">
+                                                    <span class="frb-title">Lorem Ipsum</span>
+                                                    <span class="frb-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="frb frb-primary">
+                                                <input type="radio" id="radio-button-1" name="radio-button" value="1">
+                                                <label for="radio-button-1">
+                                                    <span class="frb-title">Lorem Ipsum</span>
+                                                    <span class="frb-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="frb frb-primary">
+                                                <input type="radio" id="radio-button-2" name="radio-button" value="2">
+                                                <label for="radio-button-2">
+                                                    <span class="frb-title">Lorem Ipsum</span>
+                                                    <span class="frb-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="frb frb-primary">
+                                                <input type="radio" id="radio-button-3" name="radio-button" value="3">
+                                                <label for="radio-button-3">
+                                                    <span class="frb-title">Lorem Ipsum</span>
+                                                    <span class="frb-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-9"></div>
+                                    <div class="col-lg-1">
+                                        <button runat="server" onclick="disableRandom()" id="Button1" class="btn float-right text-uppercase btn-primary" type="button">Back</button>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <button runat="server" onclick="addWork()" id="Button2" class="btn float-right text-uppercase btn-primary" type="button">Back</button>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <button runat="server" onclick="addWork()" id="Button3" class="btn float-right text-uppercase btn-primary" type="button">Next</button>
+                                    </div>
+                                </div>
+                                <!-- addWorkModal alert-->
+                                <div class="row my-2">
+                                    <div class="col-sm-12">
+                                        <div id="alertAddDiv" style="display: none;" class="alert alert-danger alert alert-dismissible" role="alert">
+                                            <div id="addMessage">
+                                            </div>
+                                            <button type="button" class="close" data-hide="alert" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- addWorkModal footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <%--                    <button runat="server" onclick="addWork()" id="Button1" class="btn btn-primary" type="button">Legg til arbeid</button>--%>
                         </div>
                     </div>
                 </div>
