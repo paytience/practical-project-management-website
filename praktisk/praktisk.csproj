@@ -69,6 +69,18 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\about\Chapter_1.png" />
+    <Content Include="img\about\Chapter_10.png" />
+    <Content Include="img\about\Chapter_11.png" />
+    <Content Include="img\about\Chapter_12.png" />
+    <Content Include="img\about\Chapter_2.png" />
+    <Content Include="img\about\Chapter_3.png" />
+    <Content Include="img\about\Chapter_4.png" />
+    <Content Include="img\about\Chapter_5.png" />
+    <Content Include="img\about\Chapter_6.png" />
+    <Content Include="img\about\Chapter_7.png" />
+    <Content Include="img\about\Chapter_8.png" />
+    <Content Include="img\about\Chapter_9.png" />
     <Content Include="img\bg.jpg" />
     <Content Include="img\portfolio\Azure-thumbnail.jpg" />
     <Content Include="img\portfolio\Bootstrap-thumbnail.jpg" />
