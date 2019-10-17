@@ -121,7 +121,7 @@
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                            <i class="fas fa-question-circle fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="service-heading">Questions</h4>
                         <p class="text-muted">The questions we made are created to repeat the information told in the lectures and in the course book.</p>
@@ -137,7 +137,7 @@
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                            <i class="fas fa-book fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="service-heading">Learning</h4>
                         <p class="text-muted">Using the questions and summaries together with the lectures and the book The Road to Success may help you learn more and retain the information better for later use.    </p>
@@ -525,16 +525,8 @@
                             <h4>Casper Nilsen</h4>
                             <p class="text-muted">Lead Developer</p>
                             <ul class="list-inline social-buttons">
-                                <li class="list-inline-item">
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
+                                
+                                
                                 <li class="list-inline-item">
                                     <a href="https://www.linkedin.com/in/casper-nilsen-899344149/">
                                         <i class="fab fa-linkedin-in"></i>
@@ -547,18 +539,8 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="img/team/jørgen.jpg" alt="">
                             <h4>Jørgen Anker Olsen</h4>
-                            <p class="text-muted">Project manager and Lead Designer</p>
-                            <ul class="list-inline social-buttons">
-                                <li class="list-inline-item">
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
+                            <p class="text-muted">Project Manager and Lead Designer</p>
+                            <ul class="list-inline social-buttons"> 
                                 <li class="list-inline-item">
                                     <a href="https://www.linkedin.com/in/jorgenankerolsen/">
                                         <i class="fab fa-linkedin-in"></i>
@@ -574,16 +556,6 @@
                             <p class="text-muted">Lead UX Designer</p>
                             <ul class="list-inline social-buttons">
                                 <li class="list-inline-item">
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
                                     <a href="https://www.linkedin.com/in/simen-theie-havenstr%C3%B8m-122024171/">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
@@ -598,17 +570,7 @@
                             <img class="mx-auto rounded-circle" src="img/team/ole.jpg" alt="">
                             <h4>Ole Martin Brokstad</h4>
                             <p class="text-muted">Back-end Developer</p>
-                            <ul class="list-inline social-buttons">
-                                <li class="list-inline-item">
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
+                            <ul class="list-inline social-buttons"> 
                                 <li class="list-inline-item">
                                     <a href="https://www.linkedin.com/in/ole-martin-brokstad-b23bb2137/">
                                         <i class="fab fa-linkedin-in"></i>
@@ -622,17 +584,7 @@
                             <img class="mx-auto rounded-circle" src="img/team/fredrik.jpg" alt="">
                             <h4>Fredrik Hoel Bevreng</h4>
                             <p class="text-muted">Lead Tester</p>
-                            <ul class="list-inline social-buttons">
-                                <li class="list-inline-item">
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
+                            <ul class="list-inline social-buttons"> 
                                 <li class="list-inline-item">
                                     <a href="https://www.linkedin.com/in/fredrik-hoel-bevreng-a70273145/">
                                         <i class="fab fa-linkedin-in"></i>
@@ -646,17 +598,7 @@
                             <img class="mx-auto rounded-circle" src="img/team/wilhelm.jpg" alt="">
                             <h4>Wilhelm André Mangersnes</h4>
                             <p class="text-muted">Lead GFX Designer</p>
-                            <ul class="list-inline social-buttons">
-                                <li class="list-inline-item">
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
+                            <ul class="list-inline social-buttons"> 
                                 <li class="list-inline-item">
                                     <a href="#">
                                         <i class="fab fa-linkedin-in"></i>
