@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.css">
 
-
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
     <link href="css/default.css" rel="stylesheet" type="text/css">
@@ -29,8 +28,6 @@
 
     <!-- Font-awesome Icons -->
     <script src="https://kit.fontawesome.com/ffd2f95330.js" crossorigin="anonymous"></script>
-
-
 
     <%--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>--%>
     <%--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>--%>
@@ -54,7 +51,7 @@
                             <a class="nav-link js-scroll-trigger" href="#services">Take Test</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#Summarys">Summarys</a>
+                            <a class="nav-link js-scroll-trigger" href="#Summaries">Summaries</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#portfolio">About</a>
@@ -77,7 +74,7 @@
         <header class="masthead">
             <div class="container">
                 <div class="intro-text">
-                    <div class="intro-lead-in">Welcome To Our Test!</div>
+                    <div class="intro-lead-in">Welcome To Our Interactive Learning Site!</div>
                     <div class="intro-heading text-uppercase">We hope you enjoy it</div>
                     <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Take test</a>
                 </div>
@@ -89,14 +86,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">Select Lecture/Quiz</h2>
+                        <h2 class="section-heading text-uppercase">Select Chapter/Quiz</h2>
                         <!-- dropdown -->
                         <div class="dropdown">
                             <button class="btn btn-lg btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Lecture
+                                Chapter
                             </button>
                             <div runat="server" id="dropdownmenu" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <button runat="server" id="dropdown1" onclick="openModal(this)" class="dropdown-item text-secondary disabled" style="display: none" value="0" data-toggle="modal" data-target="#LectureModal" type="button">1</button>
+                                <button runat="server" id="dropdown1" onclick="openModal(this)" class="dropdown-item" style="display: none" value="0" data-toggle="modal" data-target="#LectureModal" type="button">1</button>
                                 <button runat="server" id="dropdown2" onclick="openModal(this)" class="dropdown-item" style="display: none" value="1" data-toggle="modal" data-target="#LectureModal" type="button">2</button>
                                 <button runat="server" id="dropdown3" onclick="openModal(this)" class="dropdown-item" style="display: none" value="2" data-toggle="modal" data-target="#LectureModal" type="button">3</button>
                                 <button runat="server" id="dropdown4" onclick="openModal(this)" class="dropdown-item" style="display: none" value="3" data-toggle="modal" data-target="#LectureModal" type="button">4</button>
@@ -115,6 +112,7 @@
                 </div>
         </section>
 
+        <!-- Service Summaries-->
         <section>
             <div class="container">
                 <div class="row text-center">
@@ -146,12 +144,12 @@
             </div>
         </section>
 
-        <!-- Summarys Grid -->
-        <section class="bg-light page-section" id="Summarys">
+        <!-- Summaries Grid -->
+        <section class="bg-light page-section" id="Summaries">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">Summarys</h2>
+                        <h2 class="section-heading text-uppercase">Summaries</h2>
                         <h3 class="section-subheading text-muted">Click on any of the chapters below to read more about them.</h3>
                     </div>
                 </div>
@@ -683,31 +681,14 @@
                         <span class="copyright">Copyright &copy; Casper Nilsen 2019</span>
                     </div>
                     <div class="col-md-4">
-                        <ul class="list-inline social-buttons">
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                     <div class="col-md-4">
                         <ul class="list-inline quicklinks">
                             <li class="list-inline-item">
-                                <a href="#">Privacy Policy</a>
+                                <a href="https://www.ntnu.edu/privacy">Privacy Policy</a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#">Terms of Use</a>
+                                <a href="https://opensource.org/licenses/MIT">Terms of Use</a>
                             </li>
                         </ul>
                     </div>
@@ -715,7 +696,7 @@
             </div>
         </footer>
 
-        !-- Summary Modal 1 -->
+        <!-- Summary Modal 1 -->
         <div class="portfolio-modal modal fade" id="portfolioModalChapter1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -748,7 +729,6 @@
                 </div>
             </div>
         </div>
-
 
         <!-- Summary Modal 2 -->
         <div class="portfolio-modal modal fade" id="portfolioModalChapter2" tabindex="-1" role="dialog" aria-hidden="true">
@@ -1285,7 +1265,7 @@
                                     <h2 class="text-uppercase">Web hosting by Azure</h2>
                                     <p class="item-intro text-muted">To host such a amazing website we use Azure</p>
                                     <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                                    <p>To hoste our website we are using the maazing cloud hosting services to host our website.</p>
+                                    <p>To host our website we are using the cloud service Azure.</p>
                                     <ul class="list-inline">
                                         <li>Date: October 2019</li>
                                         <li>Client: Us</li>
@@ -1345,7 +1325,7 @@
                     <!-- lectureWorkModal content-->
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4 class="modal-title" id="modalTitle">Lecture 1</h4>
+                            <h4 class="modal-title" id="modalTitle">Chapter 1</h4>
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
                         <!-- lectureWorkModal body-->
@@ -1403,6 +1383,7 @@
                                 <div class="row">
                                     <div class="col-sm-5">
                                         <button runat="server" onclick="lifeLine5050()" id="lifeLine1" class="btn float-left text-uppercase btn-primary" type="button">50/50</button>
+                                        <button runat="server" onclick="lifeLineHint()" id="lifeLine2" class="btn float-left text-uppercase btn-primary" type="button">Ask an expert</button>
                                     </div>
 
                                     <div class="col-sm-7 text-right">
@@ -1423,8 +1404,12 @@
                                 <div class="row my-2">
                                     <div id="alertDiv" style="display: none;" class="alert mx-auto alert-danger alert alert-dismissible" role="alert">
                                         <div id="addMessage">
-                                            <strong>Ops!</strong> Vennligst velg et alternativ.
+                                            <strong>Ops!</strong> Please select one alternative.
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="row my-2">
+                                    <div id="hint" style="display: none;" class="alert mx-auto alert-info alert alert-dismissible" role="alert">
                                     </div>
                                 </div>
 
