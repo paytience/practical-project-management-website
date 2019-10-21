@@ -165,7 +165,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 1</h4>
-                            <p class="text-muted">Introduction</p>
+                            <p class="text-muted">Introduction - Project Types</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
@@ -294,7 +294,7 @@
                             <p class="text-muted">Insert chapter name</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!-- <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter11">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -321,7 +321,7 @@
                             <h4>Chapter 12</h4>
                             <p class="text-muted">Insert chapter name</p>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </section>
@@ -711,9 +711,22 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">Chapter 1</h2>
-                                    <p class="item-intro text-muted">Summary
-                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
-                                    <p>There will here be a summary from this chapter!</p>
+                                    <p class="item-intro text-muted">Summary Chapter 1 – Project Types
+                                    <img class="img-fluid d-block mx-auto" src="  " alt="">
+                                    <p> <Text style={styles.underline}></Text>
+
+                                            <p align="left">The first chapter describes the different types of project which is presented throughout the book.</p>
+                                            <u>Restructuring Projects</u>
+                                            <p align="left">In restructuring projects, also called soft projects, the people and the work processes are central. The project has no tangible deliveries. Change is an important term considering these types of projects. These are project with the goal of for example implement new work processes, reorganizing of a company, training of a new system, where the challenge is to facilitate for these changes.</p>
+                                            <u>Information Technology and Software Projects</u>
+                                            <p align="left">IT and software projects are like restructuring project, but where new software is developed and implemented, with the goal of changing systems and processes. This type of project has a more tangible delivery, compared to standard restructuring project. The delivery of IT and software projects can be an IT platform, as and example. The main challenge is to handle expectations from different stakeholders, especially the one who is going to use the new IT-solutions.</p>
+                                            <u>Construction Projects</u>
+                                            <p align="left">The common characteristics of these types of project are requirements of project management and planning due to different limitations and guidelines for construction. The delivery of this type of project is easy detectable deliveries. </p>
+                                            <u>Product Development Projects</u>
+                                            <p align="left">Similar to construction projects, the delivery of a Product Development project is detectable. This involves development of new products, optimization of existing products, acquiring standardized or custom-built products. The main challenge is often to establish compliance between product complexity and degree of innovation. Among the most important success factors are scope management, acquirement of adequate technical resources, adequate risk management processes, follow up and support by top management.</p>
+                                            <u>Research Projects and Studies</u>
+                                            <p align="left">This type of project is differentiated by its delivery. The main delivery is usually a report which provides the basis for continuation of project or for further control. The main challenges are high level of uncertainty, which leads to the project being largely influenced by human factors.  
+                                            </p>
                                     <ul class="list-inline">
                                         <li>Date: October 2019</li>
                                         <li>Author: Jørgen Anker Olsen</li>
@@ -1036,7 +1049,7 @@
             </div>
         </div>
 
-        <!-- Summary Modal 11 -->
+        <!-- Summary Modal 11 --
         <div class="portfolio-modal modal fade" id="portfolioModalChapter11" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -1049,7 +1062,7 @@
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
-                                    <!-- Project Details Go Here -->
+                                    <!-- Project Details Go Here --
                                     <h2 class="text-uppercase">Chapter 11</h2>
                                     <p class="item-intro text-muted">Summary
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
@@ -1071,7 +1084,7 @@
         </div>
 
 
-        <!-- Summary Modal 12 -->
+        <!-- Summary Modal 12 --
         <div class="portfolio-modal modal fade" id="portfolioModalChapter12" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -1084,7 +1097,7 @@
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
-                                    <!-- Project Details Go Here -->
+                                    <!-- Project Details Go Here --
                                     <h2 class="text-uppercase">Chapter 12</h2>
                                     <p class="item-intro text-muted">Summary
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
