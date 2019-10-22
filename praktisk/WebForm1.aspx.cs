@@ -8,6 +8,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.HtmlControls;
 using System.Web.Mail;
 using System.Net.Mail;
+using System.Runtime.InteropServices;
 
 namespace praktisk
 {
@@ -35,28 +36,30 @@ namespace praktisk
             List<string> lstQuestionAlternativeId = new List<string>();
             List<string> lstCorrect = new List<string>();
             List<string> lstAlternativeText = new List<string>();
+            List<string> lstQuizAlternativeId = new List<string>();
 
             Data quizData = new Data();
 
             quizData.GetQuizNames(out lstQuizId, out lstQuizNames);
             quizData.GetQuestions(out lstQuestionId, out lstQuestionText, out lstQuizQuestionId, out lstQuestionDifficulty, out lstQuestionHint);
-            quizData.GetAlternatives(out lstAlternativeId, out lstQuestionAlternativeId, out lstCorrect, out lstAlternativeText);
+            quizData.GetAlternatives(out lstAlternativeId, out lstQuestionAlternativeId, out lstCorrect, out lstAlternativeText, out lstQuizAlternativeId);
 
 
             List<Quiz> Quizes = new List<Quiz>();
-            for (int i = 0; i < lstQuizId.Count(); i++) //3 times
+            for (int i = 0; i < lstQuizId.Count(); i++) //10 times
             {
                 List<Question> Questions = new List<Question>();
-                for (int j = 0; j < lstQuestionId.Count(); j++) //8 times
+                for (int j = 0; j < lstQuestionId.Count(); j++) //10*(3 or 4) times
                 {
                     List<Alternative> Alternatives = new List<Alternative>();
+                    
                     if (Convert.ToInt32(lstQuizId[i]) == Convert.ToInt32(lstQuizQuestionId[j])) //if quizid (quiz) = quizid (question)
                     {
-                        for (int k = 0; k < lstAlternativeId.Count(); k++) //32 times
+                        for (int k = 0; k < lstAlternativeId.Count(); k++) //10*(3 or 4)*4 times
                         {
-                            if (Convert.ToInt32(lstQuestionId[j]) == Convert.ToInt32(lstQuestionAlternativeId[k])) //if questionid (question) = questionid (alternative)
+                            if (Convert.ToInt32(lstQuestionId[j]) == Convert.ToInt32(lstQuestionAlternativeId[k]) & Convert.ToInt32(lstQuizId[i]) == Convert.ToInt32(lstQuizAlternativeId[k])) //if questionid (question) = questionid (alternative)
                             {
-                                Alternatives.Add(new Alternative(lstAlternativeId[k], lstQuestionAlternativeId[k], lstCorrect[k], lstAlternativeText[k]));
+                                Alternatives.Add(new Alternative(lstAlternativeId[k], lstQuestionAlternativeId[k], lstCorrect[k], lstAlternativeText[k], lstQuizAlternativeId[k]));
                             }
                         }
                         Questions.Add(new Question(lstQuestionId[j], lstQuestionText[j], lstQuizQuestionId[j], lstQuestionDifficulty[j], Alternatives, lstQuestionHint[j]));

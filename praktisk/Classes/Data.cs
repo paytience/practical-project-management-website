@@ -60,12 +60,13 @@ namespace praktisk
             }
         }
 
-        public void GetAlternatives(out List<string> alternativeId, out List<string> questionId, out List<string> correct, out List<string> alternativeText) //gets station information from SQL database
+        public void GetAlternatives(out List<string> alternativeId, out List<string> questionId, out List<string> correct, out List<string> alternativeText, out List<string> quizId) //gets station information from SQL database
         {
             alternativeId = new List<string>();
             questionId = new List<string>();
             correct = new List<string>();
             alternativeText = new List<string>();
+            quizId = new List<string>(); 
 
             using (SqlCommand cmd = new SqlCommand(StoredProcedure.GetAlternatives.ToString(), con))
             {
@@ -78,6 +79,7 @@ namespace praktisk
                     questionId.Add(reader.GetString(1));
                     correct.Add(reader.GetBoolean(2).ToString());
                     alternativeText.Add(reader.GetString(3));
+                    quizId.Add(reader.GetString(4));
                 }
                 con.Close();
             }
