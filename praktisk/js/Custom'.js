@@ -451,6 +451,7 @@ function openResultsModal() {
     }
 
     //Fill alternatives with text
+    alternative = quizes[ind].Questions[questionInd].Alternatives
     altResults[0].innerHTML = alternative[0].AlternativeText;
     altResults[1].innerHTML = alternative[1].AlternativeText;
     altResults[2].innerHTML = alternative[2].AlternativeText;
