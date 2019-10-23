@@ -153,8 +153,8 @@
                         <h3 class="section-subheading text-muted">Click on any of the chapters below to read more about them.</h3>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="row justify-content-md-center">                 
+                    <div class="col-md-2 col-md-offset-1 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter1">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -168,7 +168,7 @@
                             <p class="text-muted">Introduction - Project Types</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter2">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -182,7 +182,7 @@
                             <p class="text-muted">Project characteristics</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter3">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -196,7 +196,7 @@
                             <p class="text-muted">Insert chapter name</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter4">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -210,7 +210,7 @@
                             <p class="text-muted">Insert chapter name</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter5">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -224,7 +224,9 @@
                             <p class="text-muted">Insert chapter name</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter6">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -238,7 +240,7 @@
                             <p class="text-muted">Insert chapter name</p>
                         </div>
                     </div>
-                     <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter7">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -252,7 +254,7 @@
                             <p class="text-muted">Insert chapter name</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter8">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -266,7 +268,7 @@
                             <p class="text-muted">Insert chapter name</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter9">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -280,7 +282,7 @@
                             <p class="text-muted">Insert chapter name</p>
                         </div>
                     </div>
-                     <div class="col-md-4 col-sm-6 portfolio-item">
+                     <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter10">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -294,34 +296,6 @@
                             <p class="text-muted">Insert chapter name</p>
                         </div>
                     </div>
-                    <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter11">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="img/about/Chapter_11.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Chapter 11</h4>
-                            <p class="text-muted">Insert chapter name</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter12">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="img/about/Chapter_12.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Chapter 12</h4>
-                            <p class="text-muted">Insert chapter name</p>
-                        </div>
-                    </div>-->
                 </div>
             </div>
         </section>
