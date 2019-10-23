@@ -86,7 +86,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">Select Chapter/Quiz</h2>
+                        <h2 class="section-heading text-uppercase">Select Quiz</h2>
                         <!-- dropdown -->
                         <div class="dropdown">
                             <button class="btn btn-lg btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -153,8 +153,8 @@
                         <h3 class="section-subheading text-muted">Click on any of the chapters below to read more about them.</h3>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="row justify-content-md-center">                 
+                    <div class="col-md-2 col-md-offset-1 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter1">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -165,10 +165,10 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 1</h4>
-                            <p class="text-muted">Introduction - Project Types</p>
+                            <p class="text-muted">Introduction</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter2">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -182,7 +182,7 @@
                             <p class="text-muted">Project characteristics</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter3">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -193,10 +193,10 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 3</h4>
-                            <p class="text-muted">Insert chapter name</p>
+                            <p class="text-muted">Stakeholders</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter4">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -207,10 +207,10 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 4</h4>
-                            <p class="text-muted">Insert chapter name</p>
+                            <p class="text-muted">Project life cycle</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter5">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -221,10 +221,12 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 5</h4>
-                            <p class="text-muted">Insert chapter name</p>
+                            <p class="text-muted">Project initiation</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter6">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -235,10 +237,10 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 6</h4>
-                            <p class="text-muted">Insert chapter name</p>
+                            <p class="text-muted">Project success</p>
                         </div>
                     </div>
-                     <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter7">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -249,10 +251,10 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 7</h4>
-                            <p class="text-muted">Insert chapter name</p>
+                            <p class="text-muted">Success factors</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter8">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -263,10 +265,10 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 8</h4>
-                            <p class="text-muted">Insert chapter name</p>
+                            <p class="text-muted">Project organization</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter9">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -277,10 +279,10 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 9</h4>
-                            <p class="text-muted">Insert chapter name</p>
+                            <p class="text-muted">Project planning</p>
                         </div>
                     </div>
-                     <div class="col-md-4 col-sm-6 portfolio-item">
+                     <div class="col-md-2 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter10">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -291,37 +293,9 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 10</h4>
-                            <p class="text-muted">Insert chapter name</p>
+                            <p class="text-muted">Project risk management</p>
                         </div>
                     </div>
-                    <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter11">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="img/about/Chapter_11.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Chapter 11</h4>
-                            <p class="text-muted">Insert chapter name</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModalChapter12">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="img/about/Chapter_12.png" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Chapter 12</h4>
-                            <p class="text-muted">Insert chapter name</p>
-                        </div>
-                    </div>-->
                 </div>
             </div>
         </section>
@@ -416,7 +390,7 @@
                             <img class="img-fluid" src="img/portfolio/Mission-thumbnail.jpg" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Our mission</h4>
+                            <h4>Our purpose</h4>
                             <p class="text-muted">Why we chose to make a website</p>
                         </div>
                     </div>
@@ -1135,14 +1109,17 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">The project</h2>
-                                    <p class="item-intro text-muted">Bacground for the project:</p>
+                                    <p class="item-intro text-muted">Project background</p>
                                     <img class="img-fluid d-block mx-auto" src="img/portfolio/01-metalearing.jpg" alt="">
 
-                                    <p>The goal of this project is....</p>
+                                    <p>
+                                       This interactive learning site is the result of a digitalization project in 
+                                       the course TPK5100, "Applied Project management". It was created during the Fall 2019
+                                       and delivered as the final product, i.e. the project output.
+                                    </p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Client: Students of Practical project management</li>
-                                        <li>Category: Web hosting</li>
+                                        <li>Date: November 2019</li>
+                                        <li>Project Owner: Bassam Hussein</li>
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1205,13 +1182,13 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">Bootstrap</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                     <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
-                                        <li>Date: January 2019</li>
-                                        <li>Client: Finish</li>
+                                        <li>Date: November 2019</li>
+                                        <li>Project Owner: Bassam Hussein</li>
                                         <li>Category: Identity</li>
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -1240,7 +1217,7 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">SQL</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                     <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
@@ -1310,14 +1287,17 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Our purpose</h2>
+                                    <p class="item-intro text-muted">Every project has a purpose</p>
                                     <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>The purpose of this project is to equip every student taking TPK5100 with an interactive learning tool 
+                                       that has a positive impact on the learning outcome. Our vision is that this tool can be used during the
+                                       semester, before the exam or as a refreshment for former students that has taken this course, to help
+                                       them reach their learning objectives. 
+                                    </p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Client: Window</li>
-                                        <li>Category: Photography</li>
+                                        <li>Date: November 2019</li>
+                                        <li>Client: Bassam Hussein</li>
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
