@@ -81,6 +81,11 @@
     <Content Include="img\about\Chapter_7.png" />
     <Content Include="img\about\Chapter_8.png" />
     <Content Include="img\about\Chapter_9.png" />
+    <Content Include="img\about\koding.jpg" />
+    <Content Include="img\about\Learning.jpg" />
+    <Content Include="img\about\Logo_1.PNG" />
+    <Content Include="img\about\Project_start.jpg" />
+    <Content Include="img\about\Testing.jpg" />
     <Content Include="img\bg.jpg" />
     <Content Include="img\portfolio\01-metalearing.jpg" />
     <Content Include="img\portfolio\Azure-thumbnail.jpg" />
