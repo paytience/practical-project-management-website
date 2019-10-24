@@ -462,7 +462,7 @@
                                         <h4 class="subheading">Trying and improving</h4>
                                     </div>
                                     <div class="timeline-body">
-                                        <p class="text-muted">We tryed out different solutons and setteled on those that fit our objective the best.</p>
+                                        <p class="text-muted">We tried out different solutions and settled on those that fit our objective the best.</p>
                                     </div>
                                 </div>
                             </li>
