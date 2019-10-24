@@ -426,7 +426,7 @@
                             </li>
                             <li class="timeline-inverted">
                                 <div class="timeline-image">
-                                    <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                                    <img class="rounded-circle img-fluid" src="img/about/Learning.jpg" alt="">
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
@@ -440,7 +440,7 @@
                             </li>
                             <li>
                                 <div class="timeline-image">
-                                    <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                                    <img class="rounded-circle img-fluid" src="img/about/koding.jpg" alt="">
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
@@ -454,12 +454,26 @@
                             </li>
                             <li class="timeline-inverted">
                                 <div class="timeline-image">
-                                    <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                                    <img class="rounded-circle img-fluid" src="img/about/Testing.jpg" alt="">
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
                                         <h4>October 2019</h4>
-                                        <h4 class="subheading">Final Touches</h4>
+                                        <h4 class="subheading">Trying and improving</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">We tryed out different solutons and setteled on those that fit our objective the best.</p>
+                                    </div>
+                                </div>
+                            </li>
+                             <li>
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="img/about/Logo_1.PNG" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>Late October 2019 </h4>
+                                        <h4 class="subheading">Final Touches and a finished product</h4>
                                     </div>
                                     <div class="timeline-body">
                                         <p class="text-muted">Launching our website was a great feeling, with great effort and long nights we pulled through.</p>
