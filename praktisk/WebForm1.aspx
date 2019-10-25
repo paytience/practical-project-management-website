@@ -165,7 +165,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 1</h4>
-                            <p class="text-muted">Introduction</p>
+                            <p class="text-muted"><font size = "5">Introduction</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -713,6 +713,7 @@
                                             <u>Product Development Projects</u>
                                             <p align="left">Similar to construction projects, the delivery of a Product Development project is detectable. This involves development of new products, optimization of existing products, acquiring standardized or custom-built products. The main challenge is often to establish compliance between product complexity and degree of innovation. Among the most important success factors are scope management, acquirement of adequate technical resources, adequate risk management processes, follow up and support by top management.</p>
                                             <u>Research Projects and Studies</u>
+
                                             <p align="left">This type of project is differentiated by its delivery. The main delivery is usually a report which provides the basis for continuation of project or for further control. The main challenges are high level of uncertainty, which leads to the project being largely influenced by human factors.  
                                             </p>
                                     <ul class="list-inline">
@@ -745,10 +746,24 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Chapter 1</h2>
+                                    <h2 class="text-uppercase">Chapter 2</h2>
                                     <p class="item-intro text-muted">Summary
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
-                                    <p>UThere will here be a summary from this chapter!</p>
+                                    <p>Summary Chapter 2 – Project Characteristics</p>
+                                       
+                                        <p align="left">The second chapter describes different project characteristics with the purpose of better understanding the challenges these can bring to a project.</p>
+                                        <u>Organizational Complexity</u>
+                                        <p align="left">If the delivery of a project is big and complex, consisting of several components with sub deliveries, it is characterized as organizational complexity.</p>
+                                        <u>Projects contribute to transformation</u>
+                                        <p align="left">These projects have the purpose of creating change or transform the organization. This could involve change of work processes, change of organizational structures and change of attitude.</p>
+                                        <u>Projects have impact on business or strategy</u>
+                                        <p align="left">These projects have the purpose of benefit the project owner. The project purpose is aligned with the business objective or strategy. </p>
+                                        <u>Projects are executed under one or more types of constraints</u>
+                                        <p align="left">The project must deliver within certain constraints, such as time pressure, limited budget, strict regulations, strict requirements and resource shortage.</p>
+                                        <u>Uncertainty</u>
+                                        <p align="left">This characteristic includes projects with uncertainty related to the product, people, methods and context.</p>
+
+</p>
                                     <ul class="list-inline">
                                         <li>Date: October 2019</li>
                                         <li>Author: Jørgen Anker Olsen</li>
@@ -779,7 +794,7 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Chapter 1</h2>
+                                    <h2 class="text-uppercase">Chapter 3</h2>
                                     <p class="item-intro text-muted">Summary
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
@@ -813,7 +828,7 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Chapter 1</h2>
+                                    <h2 class="text-uppercase">Chapter 4</h2>
                                     <p class="item-intro text-muted">Summary
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
@@ -847,7 +862,7 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Chapter 1</h2>
+                                    <h2 class="text-uppercase">Chapter 5</h2>
                                     <p class="item-intro text-muted">Summary
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
@@ -881,7 +896,7 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Chapter 1</h2>
+                                    <h2 class="text-uppercase">Chapter 6</h2>
                                     <p class="item-intro text-muted">Summary
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
@@ -1124,7 +1139,7 @@
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">The project</h2>
                                     <p class="item-intro text-muted">Project background</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/01-metalearing.jpg" alt="">
+                                    <img class="img-fluid d-block mx-auto" src="" alt="">
 
                                     <p>
                                        This interactive learning site is the result of a digitalization project in 
@@ -1163,7 +1178,7 @@
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">C#, Java, python and html</h2>
                                     <p class="item-intro text-muted">The programming languages used to create this websit. </p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/programming.jpg" alt="">
+                                    <img class="img-fluid d-block mx-auto" src="" alt="">
                                     <p>We used C#, Java, python and html to create this website. And.... </p>
                                     <ul class="list-inline">
                                         <li>Date: October 2019</li>
@@ -1198,7 +1213,7 @@
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">Bootstrap</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                                    <img class="img-fluid d-block mx-auto" src="" alt="">
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>Date: November 2019</li>
@@ -1233,7 +1248,7 @@
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">SQL</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                                    <img class="img-fluid d-block mx-auto" src="" alt="">
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>Date: January 2017</li>
@@ -1268,7 +1283,7 @@
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">Web hosting by Azure</h2>
                                     <p class="item-intro text-muted">To host such a amazing website we use Azure</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                                    <img class="img-fluid d-block mx-auto" src="" alt="">
                                     <p>To host our website we are using the cloud service Azure.</p>
                                     <ul class="list-inline">
                                         <li>Date: October 2019</li>
@@ -1303,7 +1318,7 @@
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">Our purpose</h2>
                                     <p class="item-intro text-muted">Every project has a purpose</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                                    <img class="img-fluid d-block mx-auto" src="" alt="">
                                     <p>The purpose of this project is to equip every student taking TPK5100 with an interactive learning tool 
                                        that has a positive impact on the learning outcome. Our vision is that this tool can be used during the
                                        semester, before the exam or as a refreshment for former students that has taken this course, to help
