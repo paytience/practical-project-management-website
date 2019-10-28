@@ -1363,19 +1363,19 @@
 
                                         <!-- RADIO BUTTONS BLOCK -->
                                         <div class="col-lg-6">
-                                            <div class="frb frb-primary">
+                                            <div class="frb frb-primary" style="height: 92%;">
                                                 <input type="radio" id="radio-button-1" onclick="altCheck(this)" name="radio-button" value="1">
-                                                <label for="radio-button-1" id="alt1Box">
-                                                    <span class="frb-title">1</span>
+                                                <label for="radio-button-1" id="alt1Box" style="height: 100%;">
+                                                    <span class="frb-title">1</span><br />
                                                     <span class="frb-description text-dark" id="alt1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
-                                            <div class="frb frb-primary">
+                                            <div class="frb frb-primary" style="height: 92%;">
                                                 <input type="radio" id="radio-button-2" onclick="altCheck(this)" name="radio-button" value="2">
-                                                <label for="radio-button-2" id="alt2Box">
-                                                    <span class="frb-title">2</span>
+                                                <label for="radio-button-2" id="alt2Box" style="height: 100%;">
+                                                    <span class="frb-title">2</span><br />
                                                     <span class="frb-description text-dark" id="alt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
@@ -1383,19 +1383,19 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-lg-6">
-                                            <div class="frb frb-primary">
+                                            <div class="frb frb-primary" style="height: 92%;">
                                                 <input type="radio" id="radio-button-3" onclick="altCheck(this)" name="radio-button" value="3">
-                                                <label for="radio-button-3" id="alt3Box">
-                                                    <span class="frb-title">3</span>
+                                                <label for="radio-button-3" id="alt3Box" style="height: 100%;">
+                                                    <span class="frb-title">3</span><br />
                                                     <span class="frb-description text-dark" id="alt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
-                                            <div class="frb frb-primary">
+                                            <div class="frb frb-primary" style="height: 92%;">
                                                 <input type="radio" id="radio-button-4" onclick="altCheck(this)" name="radio-button" value="4">
-                                                <label for="radio-button-4" id="alt4Box">
-                                                    <span class="frb-title">4</span>
+                                                <label for="radio-button-4" id="alt4Box" style="height: 100%;">
+                                                    <span class="frb-title">4</span><br />
                                                     <span class="frb-description text-dark" id="alt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
@@ -1514,8 +1514,8 @@
                                             <div class="frb frb-primary">
                                                 <input type="radio" id="radio-button-1result" name="radio-button2" value="1">
                                                 <label for="radio-button-1" id="alt1ResultBox">
-                                                    <span class="frb-title">1</span>
-                                                    <span class="frb-description text-dark btn-block" id="altResult1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-title">1</span><br />
+                                                    <span class="frb-description text-dark" id="altResult1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1523,8 +1523,8 @@
                                             <div class="frb frb-primary">
                                                 <input type="radio" id="radio-button-2result" name="radio-button2" value="2">
                                                 <label for="radio-button-2" id="alt2ResultBox">
-                                                    <span class="frb-title">2</span>
-                                                    <span class="frb-description text-dark btn-block" id="altResult2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-title">2</span><br />
+                                                    <span class="frb-description text-dark" id="altResult2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1534,8 +1534,8 @@
                                             <div class="frb frb-primary">
                                                 <input type="radio" id="radio-button-3result" name="radio-button2" value="3">
                                                 <label for="radio-button-3" id="alt3ResultBox">
-                                                    <span class="frb-title">3</span>
-                                                    <span class="frb-description text-dark btn-block" id="altResult3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-title">3</span><br />
+                                                    <span class="frb-description text-dark" id="altResult3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1543,8 +1543,8 @@
                                             <div class="frb frb-primary">
                                                 <input type="radio" id="radio-button-4result" name="radio-button2" value="4">
                                                 <label for="radio-button-4" id="alt4ResultBox">
-                                                    <span class="frb-title">4</span>
-                                                    <span class="frb-description text-dark btn-block" id="altResult4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-title">4</span><br />
+                                                    <span class="frb-description text-dark" id="altResult4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
