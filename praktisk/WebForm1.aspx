@@ -1471,6 +1471,7 @@
                                         <button runat="server" onclick="refreshLeaderboard()" id="btnRefresh" class="btn text-uppercase btn-primary" type="button">Refresh</button>
                                     </div>
                                 </div>
+                                <div style="overflow-y: scroll;max-height: calc(70vh - 210px);">
                                 <table id="table1">
                                     <thead>
                                         <tr>
@@ -1480,6 +1481,7 @@
                                         </tr>
                                     </thead>
                                 </table>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -1513,7 +1515,7 @@
                                                 <input type="radio" id="radio-button-1result" name="radio-button2" value="1">
                                                 <label for="radio-button-1" id="alt1ResultBox">
                                                     <span class="frb-title">1</span>
-                                                    <span class="frb-description text-dark" id="altResult1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark btn-block" id="altResult1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1522,7 +1524,7 @@
                                                 <input type="radio" id="radio-button-2result" name="radio-button2" value="2">
                                                 <label for="radio-button-2" id="alt2ResultBox">
                                                     <span class="frb-title">2</span>
-                                                    <span class="frb-description text-dark" id="altResult2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark btn-block" id="altResult2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1533,7 +1535,7 @@
                                                 <input type="radio" id="radio-button-3result" name="radio-button2" value="3">
                                                 <label for="radio-button-3" id="alt3ResultBox">
                                                     <span class="frb-title">3</span>
-                                                    <span class="frb-description text-dark" id="altResult3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark btn-block" id="altResult3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1542,7 +1544,7 @@
                                                 <input type="radio" id="radio-button-4result" name="radio-button2" value="4">
                                                 <label for="radio-button-4" id="alt4ResultBox">
                                                     <span class="frb-title">4</span>
-                                                    <span class="frb-description text-dark" id="altResult4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark btn-block" id="altResult4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
                                                 </label>
                                             </div>
                                         </div>
