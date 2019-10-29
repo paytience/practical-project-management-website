@@ -796,8 +796,17 @@
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">Chapter 3</h2>
                                     <p class="item-intro text-muted">Summary
-                                    <img class="img-fluid d-block mx-auto" src=".." alt="">
-                                    <p>There will here be a summary from this chapter!</p>
+                                    <img class="img-fluid d-block mx-auto" src=".." alt="">                                 
+                                        <u>Summary Chapter 3 - Stakeholders</u>
+                                        <p align="left"> In the third chapter we learn about stakeholders, who they are, what they want, and how they can influence your project by either supporting it or ruin it.</p>
+                                        <u>Stakeholders mapping</u>
+                                        <p align="left">Mapping stakeholders is a useful tool that is used in stakeholder analysis to position the different categories of stakeholders related to the project by different attributes. One way of categorizing stakeholders that is often used in literature is their ability to influence the project by different means, such as money, knowledge, contacts, ownership, tools, etc.</p>
+                                        <p align="left">Analyzing stakeholders by who they are or how they can contribute to the project can give a better understanding of which stakeholders the project needs in order to achieve success. </p>
+
+                                        <u>Stakeholder Matrix</u>
+
+                                        <p align="left">The stakeholder matrix is a 2x2 matrix where stakeholders are put into groups of whether they have low or great influence and low or great interest in the project. For example, some stakeholders may hold great interest in a particular project but have little influence in its success or downfall, such as a sports teams supporters.</p>
+
                                     <ul class="list-inline">
                                         <li>Date: October 2019</li>
                                         <li>Author: Jørgen Anker Olsen</li>
