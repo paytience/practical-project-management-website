@@ -717,9 +717,7 @@
                                             <p align="left">This type of project is differentiated by its delivery. The main delivery is usually a report which provides the basis for continuation of project or for further control. The main challenges are high level of uncertainty, which leads to the project being largely influenced by human factors.  
                                             </p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                       
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -765,9 +763,7 @@
 
 </p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -808,9 +804,7 @@
                                         <p align="left">The stakeholder matrix is a 2x2 matrix where stakeholders are put into groups of whether they have low or great influence and low or great interest in the project. For example, some stakeholders may hold great interest in a particular project but have little influence in its success or downfall, such as a sports teams supporters.</p>
 
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -842,9 +836,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -876,9 +868,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -910,9 +900,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                       
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -944,9 +932,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                       
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -978,9 +964,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1012,9 +996,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1046,9 +1028,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1156,8 +1136,7 @@
                                        and delivered as the final product, i.e. the project output.
                                     </p>
                                     <ul class="list-inline">
-                                        <li>Date: November 2019</li>
-                                        <li>Project Owner: Bassam Hussein</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1190,9 +1169,7 @@
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
                                     <p>We used C#, Java, python and html to create this website. And.... </p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Client: Bassan</li>
-                                        <li>Category: Website programming</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1225,9 +1202,7 @@
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
                                     <p>Use this area to describe your project. </p>
                                     <ul class="list-inline">
-                                        <li>Date: November 2019</li>
-                                        <li>Project Owner: Bassam Hussein</li>
-                                        <li>Category: Identity</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1260,9 +1235,7 @@
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
                                     <p>Use this area to describe your project. </p>
                                     <ul class="list-inline">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Lines</li>
-                                        <li>Category: Branding</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1295,9 +1268,7 @@
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
                                     <p>To host our website we are using the cloud service Azure.</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Client: Us</li>
-                                        <li>Category: Website Hosting</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1334,8 +1305,7 @@
                                        them reach their learning objectives. 
                                     </p>
                                     <ul class="list-inline">
-                                        <li>Date: November 2019</li>
-                                        <li>Client: Bassam Hussein</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
