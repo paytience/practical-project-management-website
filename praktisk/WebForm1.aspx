@@ -74,8 +74,8 @@
         <header class="masthead">
             <div class="container">
                 <div class="intro-text">
-                    <div class="intro-lead-in">Welcome To Our Interactive Learning Site!</div>
-                    <div class="intro-heading text-uppercase">We hope you enjoy it</div>
+                    <div class="intro-lead-in">Welcome To Our Interactive Learning Site:</div>
+                    <div class="intro-heading text-uppercase">The Highway to Success</div>
                     <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Take test</a>
                 </div>
             </div>
@@ -165,7 +165,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 1</h4>
-                            <p class="text-muted"><font size = "5">Introduction</font></p>
+                            <p class="text-muted"><font size = "4">Introduction</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -179,7 +179,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 2</h4>
-                            <p class="text-muted">Project characteristics</p>
+                            <p class="text-muted"><font size = "4">Project characteristics</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -193,7 +193,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 3</h4>
-                            <p class="text-muted">Stakeholders</p>
+                            <p class="text-muted"><font size = "4">Stakeholders</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -207,7 +207,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 4</h4>
-                            <p class="text-muted">Project life cycle</p>
+                            <p class="text-muted"><font size = "4">Project life cycle</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -221,7 +221,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 5</h4>
-                            <p class="text-muted">Project initiation</p>
+                            <p class="text-muted"><font size = "4">Project initiation</font></p>
                         </div>
                     </div>
                 </div>
@@ -237,7 +237,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 6</h4>
-                            <p class="text-muted">Project success</p>
+                            <p class="text-muted"><font size = "4">Project success</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -251,7 +251,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 7</h4>
-                            <p class="text-muted">Success factors</p>
+                            <p class="text-muted"><font size = "4">Success factors</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -265,7 +265,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 8</h4>
-                            <p class="text-muted">Project organization</p>
+                            <p class="text-muted"><font size = "4">Project organization</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -279,7 +279,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 9</h4>
-                            <p class="text-muted">Project planning</p>
+                            <p class="text-muted"><font size = "4">Project planning</font></p>
                         </div>
                     </div>
                      <div class="col-md-2 col-sm-6 portfolio-item">
@@ -293,7 +293,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 10</h4>
-                            <p class="text-muted">Project risk management</p>
+                            <p class="text-muted"><font size = "4">Project risk management</font></p>
                         </div>
                     </div>
                 </div>
@@ -586,7 +586,7 @@
                             <p class="text-muted">Lead GFX Designer</p>
                             <ul class="list-inline social-buttons"> 
                                 <li class="list-inline-item">
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/wilhelmmangersnes/">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </li>
@@ -1221,9 +1221,9 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">Bootstrap</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted">....</p>
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Use this area to describe your project. </p>
                                     <ul class="list-inline">
                                         <li>Date: November 2019</li>
                                         <li>Project Owner: Bassam Hussein</li>
@@ -1256,9 +1256,9 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">SQL</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted">....</p>
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Use this area to describe your project. </p>
                                     <ul class="list-inline">
                                         <li>Date: January 2017</li>
                                         <li>Client: Lines</li>
@@ -1376,7 +1376,7 @@
                                                 <input type="radio" id="radio-button-1" onclick="altCheck(this)" name="radio-button" value="1">
                                                 <label for="radio-button-1" id="alt1Box" style="height: 100%;">
                                                     <span class="frb-title">1</span><br />
-                                                    <span class="frb-description text-dark" id="alt1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="alt1">...</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1385,7 +1385,7 @@
                                                 <input type="radio" id="radio-button-2" onclick="altCheck(this)" name="radio-button" value="2">
                                                 <label for="radio-button-2" id="alt2Box" style="height: 100%;">
                                                     <span class="frb-title">2</span><br />
-                                                    <span class="frb-description text-dark" id="alt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="alt2">...</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1396,7 +1396,7 @@
                                                 <input type="radio" id="radio-button-3" onclick="altCheck(this)" name="radio-button" value="3">
                                                 <label for="radio-button-3" id="alt3Box" style="height: 100%;">
                                                     <span class="frb-title">3</span><br />
-                                                    <span class="frb-description text-dark" id="alt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="alt3">...</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1405,7 +1405,7 @@
                                                 <input type="radio" id="radio-button-4" onclick="altCheck(this)" name="radio-button" value="4">
                                                 <label for="radio-button-4" id="alt4Box" style="height: 100%;">
                                                     <span class="frb-title">4</span><br />
-                                                    <span class="frb-description text-dark" id="alt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="alt4">...</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1524,7 +1524,7 @@
                                                 <input type="radio" id="radio-button-1result" name="radio-button2" value="1">
                                                 <label for="radio-button-1" id="alt1ResultBox" style="height: 100%;">
                                                     <span class="frb-title">1</span><br />
-                                                    <span class="frb-description text-dark" id="altResult1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="altResult1">...</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1533,7 +1533,7 @@
                                                 <input type="radio" id="radio-button-2result" name="radio-button2" value="2">
                                                 <label for="radio-button-2" id="alt2ResultBox" style="height: 100%;">
                                                     <span class="frb-title">2</span><br />
-                                                    <span class="frb-description text-dark" id="altResult2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="altResult2">...</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1544,7 +1544,7 @@
                                                 <input type="radio" id="radio-button-3result" name="radio-button2" value="3">
                                                 <label for="radio-button-3" id="alt3ResultBox" style="height: 100%;">
                                                     <span class="frb-title">3</span><br />
-                                                    <span class="frb-description text-dark" id="altResult3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="altResult3">...</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1553,7 +1553,7 @@
                                                 <input type="radio" id="radio-button-4result" name="radio-button2" value="4">
                                                 <label for="radio-button-4" id="alt4ResultBox" style="height: 100%;">
                                                     <span class="frb-title">4</span><br />
-                                                    <span class="frb-description text-dark" id="altResult4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="altResult4">...</span>
                                                 </label>
                                             </div>
                                         </div>
