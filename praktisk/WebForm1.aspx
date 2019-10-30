@@ -74,8 +74,8 @@
         <header class="masthead">
             <div class="container">
                 <div class="intro-text">
-                    <div class="intro-lead-in">Welcome To Our Interactive Learning Site!</div>
-                    <div class="intro-heading text-uppercase">We hope you enjoy it</div>
+                    <div class="intro-lead-in">Welcome To Our Interactive Learning Site:</div>
+                    <div class="intro-heading text-uppercase">The highway to Success</div>
                     <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Take test</a>
                 </div>
             </div>
@@ -179,7 +179,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 2</h4>
-                            <p class="text-muted">Project characteristics</p>
+                            <p class="text-muted"><font size = "5">Project characteristics</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -193,7 +193,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 3</h4>
-                            <p class="text-muted">Stakeholders</p>
+                            <p class="text-muted"><font size = "5">Stakeholders</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -207,7 +207,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 4</h4>
-                            <p class="text-muted">Project life cycle</p>
+                            <p class="text-muted"><font size = "5">Project life cycle</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -221,7 +221,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 5</h4>
-                            <p class="text-muted">Project initiation</p>
+                            <p class="text-muted"><font size = "5">Project initiation</font></p>
                         </div>
                     </div>
                 </div>
@@ -237,7 +237,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 6</h4>
-                            <p class="text-muted">Project success</p>
+                            <p class="text-muted"><font size = "5">Project success</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -251,7 +251,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 7</h4>
-                            <p class="text-muted">Success factors</p>
+                            <p class="text-muted"><font size = "5">Success factors</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -265,7 +265,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 8</h4>
-                            <p class="text-muted">Project organization</p>
+                            <p class="text-muted"><font size = "5">Project organization</font></p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6 portfolio-item">
@@ -279,7 +279,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 9</h4>
-                            <p class="text-muted">Project planning</p>
+                            <p class="text-muted"><font size = "5">Project planning</font></p>
                         </div>
                     </div>
                      <div class="col-md-2 col-sm-6 portfolio-item">
@@ -293,7 +293,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Chapter 10</h4>
-                            <p class="text-muted">Project risk management</p>
+                            <p class="text-muted"><font size = "5">Project risk management</font></p>
                         </div>
                     </div>
                 </div>
@@ -586,7 +586,7 @@
                             <p class="text-muted">Lead GFX Designer</p>
                             <ul class="list-inline social-buttons"> 
                                 <li class="list-inline-item">
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/wilhelmmangersnes/">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </li>
@@ -717,9 +717,7 @@
                                             <p align="left">This type of project is differentiated by its delivery. The main delivery is usually a report which provides the basis for continuation of project or for further control. The main challenges are high level of uncertainty, which leads to the project being largely influenced by human factors.  
                                             </p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -765,9 +763,7 @@
 
 </p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -808,9 +804,7 @@
                                         <p align="left">The stakeholder matrix is a 2x2 matrix where stakeholders are put into groups of whether they have low or great influence and low or great interest in the project. For example, some stakeholders may hold great interest in a particular project but have little influence in its success or downfall, such as a sports teams supporters.</p>
 
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -842,9 +836,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -876,9 +868,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -910,9 +900,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -944,9 +932,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -978,9 +964,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1012,9 +996,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1046,9 +1028,7 @@
                                     <img class="img-fluid d-block mx-auto" src=".." alt="">
                                     <p>There will here be a summary from this chapter!</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Author: Jørgen Anker Olsen</li>
-                                        <li>Category: Summary</li>>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1156,8 +1136,7 @@
                                        and delivered as the final product, i.e. the project output.
                                     </p>
                                     <ul class="list-inline">
-                                        <li>Date: November 2019</li>
-                                        <li>Project Owner: Bassam Hussein</li>
+                                       
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1190,9 +1169,7 @@
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
                                     <p>We used C#, Java, python and html to create this website. And.... </p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Client: Bassan</li>
-                                        <li>Category: Website programming</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1221,13 +1198,11 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">Bootstrap</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted">....</p>
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Use this area to describe your project. </p>
                                     <ul class="list-inline">
-                                        <li>Date: November 2019</li>
-                                        <li>Project Owner: Bassam Hussein</li>
-                                        <li>Category: Identity</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1256,13 +1231,12 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">SQL</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted">....</p>
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Use this area to describe your project.  </p>
                                     <ul class="list-inline">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Lines</li>
-                                        <li>Category: Branding</li>
+
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1295,9 +1269,7 @@
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
                                     <p>To host our website we are using the cloud service Azure.</p>
                                     <ul class="list-inline">
-                                        <li>Date: October 2019</li>
-                                        <li>Client: Us</li>
-                                        <li>Category: Website Hosting</li>
+                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1334,8 +1306,7 @@
                                        them reach their learning objectives. 
                                     </p>
                                     <ul class="list-inline">
-                                        <li>Date: November 2019</li>
-                                        <li>Client: Bassam Hussein</li>
+                                       
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1376,7 +1347,7 @@
                                                 <input type="radio" id="radio-button-1" onclick="altCheck(this)" name="radio-button" value="1">
                                                 <label for="radio-button-1" id="alt1Box">
                                                     <span class="frb-title">1</span>
-                                                    <span class="frb-description text-dark" id="alt1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="alt1">....</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1385,7 +1356,7 @@
                                                 <input type="radio" id="radio-button-2" onclick="altCheck(this)" name="radio-button" value="2">
                                                 <label for="radio-button-2" id="alt2Box">
                                                     <span class="frb-title">2</span>
-                                                    <span class="frb-description text-dark" id="alt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="alt2">....</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1396,7 +1367,7 @@
                                                 <input type="radio" id="radio-button-3" onclick="altCheck(this)" name="radio-button" value="3">
                                                 <label for="radio-button-3" id="alt3Box">
                                                     <span class="frb-title">3</span>
-                                                    <span class="frb-description text-dark" id="alt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="alt3">....</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1405,7 +1376,7 @@
                                                 <input type="radio" id="radio-button-4" onclick="altCheck(this)" name="radio-button" value="4">
                                                 <label for="radio-button-4" id="alt4Box">
                                                     <span class="frb-title">4</span>
-                                                    <span class="frb-description text-dark" id="alt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="alt4">....</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1522,7 +1493,7 @@
                                                 <input type="radio" id="radio-button-1result" name="radio-button2" value="1">
                                                 <label for="radio-button-1" id="alt1ResultBox">
                                                     <span class="frb-title">1</span>
-                                                    <span class="frb-description text-dark" id="altResult1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="altResult1">....</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1531,7 +1502,7 @@
                                                 <input type="radio" id="radio-button-2result" name="radio-button2" value="2">
                                                 <label for="radio-button-2" id="alt2ResultBox">
                                                     <span class="frb-title">2</span>
-                                                    <span class="frb-description text-dark" id="altResult2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="altResult2">....</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1542,7 +1513,7 @@
                                                 <input type="radio" id="radio-button-3result" name="radio-button2" value="3">
                                                 <label for="radio-button-3" id="alt3ResultBox">
                                                     <span class="frb-title">3</span>
-                                                    <span class="frb-description text-dark" id="altResult3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="altResult3">....</span>
                                                 </label>
                                             </div>
                                         </div>
@@ -1551,7 +1522,7 @@
                                                 <input type="radio" id="radio-button-4result" name="radio-button2" value="4">
                                                 <label for="radio-button-4" id="alt4ResultBox">
                                                     <span class="frb-title">4</span>
-                                                    <span class="frb-description text-dark" id="altResult4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper quam nunc.</span>
+                                                    <span class="frb-description text-dark" id="altResult4">....</span>
                                                 </label>
                                             </div>
                                         </div>
