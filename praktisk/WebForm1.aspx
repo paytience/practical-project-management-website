@@ -324,20 +324,21 @@
                             <p class="text-muted">Background for the project</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                                        <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
                                     <i class="fas fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="../img/portfolio/Csharp-thumbnail.jpg" alt="">
+                            <img class="img-fluid" src="img/portfolio/Mission-thumbnail.jpg" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>C#</h4>
-                            <p class="text-muted">Programming language used for this website.</p>
+                            <h4>Purpose</h4>
+                            <p class="text-muted">Why we chose to make a website</p>
                         </div>
                     </div>
+                    
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
                             <div class="portfolio-hover">
@@ -387,11 +388,11 @@
                                     <i class="fas fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="img/portfolio/Mission-thumbnail.jpg" alt="">
+                            <img class="img-fluid" src="../img/portfolio/Csharp-thumbnail.jpg" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Our purpose</h4>
-                            <p class="text-muted">Why we chose to make a website</p>
+                            <h4>C#, Javascript, HTML</h4>
+                            <p class="text-muted">Programming languages used for this website.</p>
                         </div>
                     </div>
                 </div>
@@ -1151,7 +1152,7 @@
         </div>
 
         <!-- Modal 2 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal">
@@ -1164,12 +1165,15 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">C#, Java, python and html</h2>
-                                    <p class="item-intro text-muted">The programming languages used to create this websit. </p>
+                                    <h2 class="text-uppercase">Purpose</h2>
+                                    <p class="item-intro text-muted">Every project has a purpose</p>
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
-                                    <p>We used C#, Java, python and html to create this website. And.... </p>
+                                    <p>The purpose of this project is to equip every student taking TPK5100 with an interactive learning tool 
+                                       that has a positive impact on the learning outcome. Our vision is that this tool can be used during the
+                                       semester, before the exam or as a refreshment for former students that has taken this course, to help
+                                       them reach their learning objectives. 
+                                    </p>
                                     <ul class="list-inline">
-                                        
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times"></i>
@@ -1198,9 +1202,12 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">Bootstrap</h2>
-                                    <p class="item-intro text-muted">....</p>
+                                    <p class="item-intro text-muted">Front-end toolbox used to create the website.</p>
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
-                                    <p>Use this area to describe your project. </p>
+                                    <p>Bootstrap is a toolbox that makes it easier to create stylish elements that act the way you want. It is the most popular framework of its kind but alternatives like Foundation by Zurb og Bulma. 
+                                        It makes it easier to put elements like textboxes on the page with by dividing the page into a grid-system. You can then put a button in a specific row or column of your choosing, while Bootstrap handles all
+                                        the sizing. Bootstrap has many designs for buttons, textboxes and have ready-to-use animations that one can select from. Bootstrap is free to use. 
+                                    </p>
                                     <ul class="list-inline">
                                         
                                     </ul>
@@ -1231,9 +1238,13 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">SQL</h2>
-                                    <p class="item-intro text-muted">....</p>
+                                    <p class="item-intro text-muted">Programming language used for storing our data</p>
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
-                                    <p>Use this area to describe your project. </p>
+                                    <p>We use Microsoft's solution for storing our data. SQL Server is a relational database, which means that two tables of data can be connected to one another. For us, a fitting example would be a table of users and a table of tests where the
+                                        relationship is that one user can have many tests. And no test can be created without having a user related to it. An alternative could be to use NoSQL databases like MongoDB. However because we don't store huge amounts of data
+                                        and we have use for the relational table structure, we opted to go for SQL Server. In SQL Server we use Stored Procedures, which is like a function ready to be called to perform a task. 
+                                        These Stored Procedures handle inserting, deleting, modifying and selecting data to and from the website. SQL Server is free for students at NTNU.
+                                    </p>
                                     <ul class="list-inline">
                                         
                                     </ul>
@@ -1264,9 +1275,13 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
                                     <h2 class="text-uppercase">Web hosting by Azure</h2>
-                                    <p class="item-intro text-muted">To host such a amazing website we use Azure</p>
+                                    <p class="item-intro text-muted">To host such a amazing website (and database) we use Azure Cloud Services</p>
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
-                                    <p>To host our website we are using the cloud service Azure.</p>
+                                    <p>Azure, or Azure Cloud Services is as the name suggests a cloud computing service that can provide a wide range of services. We use Azure to host our website 
+                                        on the internet. We use Github to update our code and Azure is set up to check if any new code has been committed to Github. Azure will then automatically 
+                                        deploy the code/images/stylesheets in the cloud. We also use Azure to host our database, this lets us access it from anywhere with an internet connection as opposed to hosting it locally on a computer. 
+                                        Azure has a free starter pack that allows you to use the basic services like web application and database hosting.
+                                    </p>
                                     <ul class="list-inline">
                                         
                                     </ul>
@@ -1283,7 +1298,7 @@
         </div>
 
         <!-- Modal 6 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal">
@@ -1296,14 +1311,12 @@
                             <div class="col-lg-8 mx-auto">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2 class="text-uppercase">Our purpose</h2>
-                                    <p class="item-intro text-muted">Every project has a purpose</p>
+                                    <h2 class="text-uppercase">C#, Javascript and html</h2>
+                                    <p class="item-intro text-muted">The programming languages used to create this website. </p>
                                     <img class="img-fluid d-block mx-auto" src="" alt="">
-                                    <p>The purpose of this project is to equip every student taking TPK5100 with an interactive learning tool 
-                                       that has a positive impact on the learning outcome. Our vision is that this tool can be used during the
-                                       semester, before the exam or as a refreshment for former students that has taken this course, to help
-                                       them reach their learning objectives. 
-                                    </p>
+                                    <p>For the front-end of the application we used C#, Javascript and HTML5. We use the Visual Studio IDE as it is Microsoft's product with integrations for SQL Server and Azure support. 
+                                       We use C# to send and receive data in the "Code-Behind" part of our code. Javascript communicates with code-behind to modify page elements and handles events like clicking buttons.
+                                       HTML is the standard markup language for documents in internet browsers. </p>
                                     <ul class="list-inline">
                                         
                                     </ul>
