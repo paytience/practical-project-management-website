@@ -63,6 +63,9 @@
                             <a class="nav-link js-scroll-trigger" href="#team">Team</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#rating">Rate us</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                         </li>
                     </ul>
@@ -614,6 +617,32 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+         <section class="page-section" id="rating">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h3 class="section-subheading text-muted">Please rate us! Your feedback is much appreciated </h3>
+                    </div>
+                </div>
+                <div class="row"> <div class="col-lg-12 text-center">
+                    <span onmouseover="starmark(this)" onclick="starmark(this)" id="1one" style="font-size:40px;cursor:pointer;"  class="fa fa-star checked"></span>
+                    <span onmouseover="starmark(this)" onclick="starmark(this)" id="2one"  style="font-size:40px;cursor:pointer;" class="fa fa-star "></span>
+                    <span onmouseover="starmark(this)" onclick="starmark(this)" id="3one"  style="font-size:40px;cursor:pointer;" class="fa fa-star "></span>
+                    <span onmouseover="starmark(this)" onclick="starmark(this)" id="4one"  style="font-size:40px;cursor:pointer;" class="fa fa-star"></span>
+                    <span onmouseover="starmark(this)" onclick="starmark(this)" id="5one"  style="font-size:40px;cursor:pointer;" class="fa fa-star"></span>
+                    <br/>
+                </div></div>
+                <div class="row"><div class="col-lg-12 text-center">
+                    <button  onclick="result()" type="button" style="margin-top:10px;margin-left:5px;" class="btn btn-lg btn-success">Submit</button>
+                    <div class="alert alert-success alert-dismissible fade show" style="display: none;" role="alert" id="voteAlert">
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                </div></div>
+		</div>
         </section>
 
         <!-- Contact -->
@@ -1582,5 +1611,43 @@
         <script src="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.js"></script>
     </form>
 </body>
+
+<script>
+    var firstTime = localStorage.getItem("n_votes");
+    if (!firstTime) {
+        // first time loaded!
+        localStorage.setItem("n_votes", "0");
+        localStorage.setItem("rating", "0");
+    }
+    var count;
+        function starmark(item) {
+            count = item.id[0];
+            sessionStorage.starRating = count;
+            var subid = item.id.substring(1);
+            for (var i = 0; i < 5; i++) {
+                if (i < count) {
+                    document.getElementById((i + 1) + subid).style.color = "orange";
+                }
+                else {
+                    document.getElementById((i + 1) + subid).style.color = "black";
+                }
+            }
+        }
+        
+    function result() {
+        rating = parseInt(localStorage.rating);
+        n_votes = parseInt(localStorage.n_votes);
+        rating += parseInt(count.toString().slice(-1));
+        n_votes += 1;
+        avg_rating = Math.round(rating * 10 / n_votes) / 10;
+        document.getElementById("voteAlert").innerHTML = "Thank you for voting! \n Average rating: " + avg_rating + "\nVotes: " +n_votes;
+        $('#voteAlert').fadeIn();
+        $('#voteAlert').alert();
+        localStorage.setItem("rating", rating.toString());
+        localStorage.setItem("n_votes", n_votes.toString());
+    }
+
+</script>
+
 
 </html>

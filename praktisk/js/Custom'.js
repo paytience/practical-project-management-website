@@ -2,6 +2,7 @@
 var arrLifeLines1 = [[[]]];
 var arrLifeLines2 = [[]];
 var arrCorrectAnswers = [[[]]];
+var count;
 
 var quizes;
 var results;
@@ -505,6 +506,26 @@ function openResultsModal() {
     $('#ResultModal').modal('show');
 }
 
+function starmark(item) {
+    count = item.id[0];
+    sessionStorage.starRating = count;
+    var subid = item.id.substring(1);
+    for (var i = 0; i < 5; i++) {
+        if (i < count) {
+            document.getElementById((i + 1) + subid).style.color = "orange";
+        }
+        else {
+            document.getElementById((i + 1) + subid).style.color = "black";
+        }
+    }
+}
+
+function result() {
+    //Rating : Count
+    //Review : Comment(id)
+    alert("Rating : " + count + "\nReview : " + document.getElementById("comment").value);
+}
+
 function init() {
     $.ajax({
         type: "POST",
@@ -515,7 +536,6 @@ function init() {
         success: function (msg) {
             quizes = msg.d;
             //console.log(msg.d);
-
             //fill Lecture dropdown menu
             for (var i = 0; i < msg.d.length; i++) {
                 var dropDownItemId = "dropdown" + (i + 1).toString();
